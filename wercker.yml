@@ -28,4 +28,4 @@ deploy:
         code: |
           pwd
           ls -la
-          scp -i $PRIVATEKEY_PATH -o StrictHostKeyChecking=no -o UserKnownHostsFile=no public/ $SSH_USER@$SSH_HOST:$OUTPUT_DIR
+          scp -P $SSH_PORT -i $PRIVATEKEY_PATH -o StrictHostKeyChecking=no -o UserKnownHostsFile=no public/ $SSH_USER@$SSH_HOST:$OUTPUT_DIR
