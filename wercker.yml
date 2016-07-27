@@ -8,6 +8,8 @@ build:
 
 deploy:
   steps:
+    - install-packages:
+        packages: openssh-client
     - add-to-known_hosts:
         hostname: $SSH_HOST
     - mktemp:
