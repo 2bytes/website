@@ -10,7 +10,7 @@ deploy:
   steps:
     - add-to-known_hosts:
         hostname: $SSH_HOST
-    - mktmp:
+    - mktemp:
         envvar: PRIVATEKEY_PATH
     - create-file:
         name: write key
