@@ -8,7 +8,7 @@ build:
 
 deploy:
   steps:
-    - add-to-known-hosts:
+    - add-to-known_hosts:
         hostname: $SSH_HOST
     - mktmp:
         envvar: PRIVATEKEY_PATH
