@@ -1,6 +1,6 @@
 +++
-date = "2013-04-12T00:00:00+01:00"
-draft = true
+date = "2016-09-07T20:54:48+01:00"
+draft = false
 title = "Bits & Niggles - Dialogs"
 image = "bn-dlg/title.jpg"
 +++
