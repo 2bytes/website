@@ -1,5 +1,5 @@
 +++
-date = "2016-07-27T23:38:09+01:00"
+date = "2013-02-09T00:00:00+01:00"
 draft = false
 title = "Tips n Tricks - Surface Mount Soldering"
 image = "tnt-smt1/title.jpg"
