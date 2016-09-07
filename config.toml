@@ -1,3 +1,7 @@
 baseurl = "https://new.2byt.es/"
 languageCode = "en-gb"
 title = "2bytes"
+
+PygmentsCodeFences=true
+PygmentsStyle="friendly"
+
