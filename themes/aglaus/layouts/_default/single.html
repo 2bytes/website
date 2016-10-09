@@ -36,13 +36,6 @@
       </div>
     </header>
 
-    <div class="share">
-      <a href="http://www.facebook.com/sharer.php?src=bm&u={{ .Permalink }}&t={{ .Title }}" onclick="window.open(this.href, 'PCwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;"><i class="fa fa-facebook"></i></a>
-      <a href="http://twitter.com/intent/tweet?url={{ .Permalink }}&text={{ .Title }}&tw_p=tweetbutton" onclick="window.open(this.href, 'PCwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;"><i class="fa fa-twitter"></i></a>
-      <a href="https://plus.google.com/share?url={{ .Permalink }}" onclick="window.open(this.href, 'PCwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;"><i class="fa fa-google-plus"></i></a>
-      <a href="http://getpocket.com/edit?url={{ .Permalink }}&title={{ .Title }}" onclick="window.open(this.href, 'PCwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;"><i class="fa fa-get-pocket"></i></a>
-    </div>
-
     {{ if or (eq .Site.Params.toc true) (eq .Params.toc true) }}<div class="toc">{{ .TableOfContents }}</div>{{ end }}
 
     <div class="article-body" itemprop="articleBody">{{ .Content }}</div>
