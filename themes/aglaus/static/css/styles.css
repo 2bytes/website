@@ -271,12 +271,10 @@ article.single .article-body blockquote p {
 }
 
 article.single .article-body blockquote p:last-child {
-  margin-bottom: 0;
+
 }
 
 article.single .article-body pre {
-  padding: 0;
-  border: none;
   border-radius: 0;
 }
 
