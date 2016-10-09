@@ -5,7 +5,7 @@ title = "Pixel Commander - Arduino UART RGB L.E.D. Controller"
 image = "pxl-com/title.jpg"
 +++
 
-![9-LED Pixel Square with Arduino Compatible](/images/pxl-com/title.jpg)
+![9-LED Pixel Square with Arduino Compatible](/images/pxl-com/pxlc01.jpg)
 
 **UPDATE 2016: This project is not dead, but, technology has improved since I started the project and there are now several alternatives;  
 First of all, the APA102 RGB L.E.D is much easier to work with (SPI, so it'll work on the Raspberry Pi's non-realtime OS) and also, [FastLED](https://github.com/FastLED/FastLED) is a much better way of managing L.E.Ds**
