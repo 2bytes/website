@@ -26,10 +26,6 @@
     </div>
 
     <header class="clearfix">
-      <div class="pull-left">
-        <div class="image" style="background-image: url({{ $.Site.BaseURL }}images/{{ with .Params.image }}{{ . }}{{ else }}default.jpg{{ end }});"></div>
-      </div>
-
       <div class="detail">
         <time>{{ with .Site.Params.DateForm }}{{ $.Date.Format . }}{{ else }}{{ $.Date.Format "Mon, Jan 2, 2006" }}{{ end }}</time>
         <h1 class="title">{{ .Title }}</h1>
