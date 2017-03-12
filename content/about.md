@@ -7,13 +7,14 @@ image = "banner.png"
 
 # Hello, 2bytes
 
-**UPDATE: Now switched to main url https://2byt.es**
+Welcome to 2bytes.
 
-Welcome to the new 2bytes static site! This site will import (manually) the posts from the original 2bytes site and switch over to eventally using this one.
+This is a place for me [Hamid Elaosta (Twitter)](https://twitter.com/alias_neo_one) to store and share things I find of interest.
 
-This new site, unlike the original, is a static site, it is created using [Hugo](https://gohugo.io), committed to [Github](https://github.com/2bytes/website)
-and then build and deployed using an automated build task at [Werker](https://app.wercker.com)
+This site, unlike the previous one, is static. There is no PHP, no comment system, no wordpress, no analytics or tracking; Just a Git repository [(Github)](https://github.com/2bytes/website) and a simple web server.
 
-I see the new site, and its technologies as an evolution of the original, in keeping the the development of my interests, skills and work since then.
+I have chosen not to maintain a comment system here so feel free to contact me on Twitter or by any other means you are able to find.
 
-Welcome to the https://2byt.es
+I am a Software Engineer primarily, so what better way to be able to update this site than to commit my changes to git?
+
+If you have comment, complaints, suggestions or any general feedback on the posts here I'd love to hear it.
