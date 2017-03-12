@@ -1,6 +1,7 @@
 baseurl = "https://2byt.es/"
 languageCode = "en-gb"
 title = "2bytes"
+theme = "aglaus"
 
 PygmentsCodeFences=true
 PygmentsStyle="friendly"
