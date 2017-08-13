@@ -1,4 +1,4 @@
-baseurl = "https://2byt.es/"
+baseurl = "https://stg.2byt.es/"
 languageCode = "en-gb"
 title = "2bytes"
 theme = "aglaus"
