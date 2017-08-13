@@ -36,7 +36,7 @@ What you need to know, is where it has been mounted and name the kernel has give
 
 we can check this using `df`;
 
-``` shell
+``` bash
 $ df -h
 Filesystem      Size  Used Avail Use% Mounted on
 /dev/sdb3       111G   15G   92G  14% /
@@ -48,7 +48,7 @@ udev            7.8G  4.0K  7.8G   1% /dev
 
 As we can see, amongst others, my 16GB pen drive has been mounted at /media/hamid/1686-EE80 and its device name is /dev/sdc1. Now, armed with this information, we can get its USB device tree by passing the name “sdc” to “udevadm”.
 
-``` shell
+``` bash
 $ udevadm info -a -n sdc
 ```
 
@@ -58,7 +58,7 @@ found, all possible attributes in the udev rules key format.
 A rule to match, can be composed by the attributes of the device
 and the attributes from one single parent device.
 
-``` shell
+``` bash
 looking at device '/devices/pci0000:00/0000:00:14.0/usb1/1-5/1-5:1.0/host9/target9:0:0/9:0:0:0/block/sdc':
     KERNEL=="sdc"
     SUBSYSTEM=="block"
@@ -125,13 +125,13 @@ If you really feel like it, you could use other attributes like size, or model (
 
 You need to create a file in the udev rules directory; In my case I called it “90-run-on-usb.rules”. The name is mostly unimportant, BUT, the number at the start determines how early or late it runs in relation to other rules in there.
 
-``` shell
+``` bash
 nano /etc/udev/rules.d/90-run-on-usb.rules
 ```
 
 Inside your rule file add the following (it has to be on a single line);
 
-``` shell
+``` bash
 KERNEL=="sd[a-z][0-9]", SUBSYSTEMS=="usb", ACTION=="add", ATTRS{serial}=="211322437220FA19914D", RUN+="/usr/local/bin/usb-chainload.sh '%k'"
 ```
 
@@ -151,7 +151,7 @@ Ok, so you noticed the `%k` and are wondering what that is for? Well, because th
 
 When you create or modify a udev rule, its important to tell udev to refresh. This is done by running the following command.
 
-``` shell
+``` bash
 udevadm control --reload-rules
 ```
 
@@ -162,7 +162,7 @@ udevadm control --reload-rules
 *The solution is to chain-load your script. Essentially this means to start as script that will start your main script in the background and “return” immediately to tell udev it has run successfully.*
 
 # Chainloader
-``` shell
+``` bash
 #!/bin/bash
 /usr/local/bin/backup-git-repos.sh $1 &
 exit 0
@@ -170,7 +170,7 @@ exit 0
 
 # Git Backup
 
-``` shell
+``` bash
 #!/bin/bash
 log=/tmp/usb-runner.log
 notify=false
@@ -235,7 +235,7 @@ The script `backup-git-repos.sh` can be replaced with any script you want to run
 
 Now, in order for your repositories to be updated, you must first perform an initial clone on to the pen drive. Change directory in your terminal to the root of your pen drive and run the following command for each repository you want to backup.
 
-``` shell
+``` bash
 git clone --mirror <repository address>
 ```
 
