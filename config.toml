@@ -1,8 +1,41 @@
-baseurl = "https://2byt.es/"
+baseurl = "/"
 languageCode = "en-gb"
-title = "2bytes"
-theme = "aglaus"
+theme = "hello-2bytes"
+paginate = 10
 
-PygmentsCodeFences=true
-PygmentsStyle="friendly"
+[params]
+  # dir name of your blog content (default is `content/posts`)
+  contentTypeName = "post"
+  # "light" or "dark"
+  defaultTheme = "dark"
+  # if you set this to 0, only submenu trigger will be visible
+  showMenuItems = 1
+  # Show reading time in minutes for posts
+  showReadingTime = false
 
+[languages]
+  [languages.en]
+    title = "2bytes"
+    subtitle = "just my 2bytes"
+    keywords = ""
+    copyright = ""
+    menuMore = "Show more"
+    writtenBy = "Written by"
+    readMore = "read on"
+    readOtherPosts = "Read other posts"
+    newerPosts = "Newer posts"
+    olderPosts = "Older posts"
+    minuteReadingTime = "min read"
+    dateFormatSingle = "2006-01-02"
+    dateFormatList = "2006-01-02"
+
+    [languages.en.params.logo]
+     path = "/images/2bytes_logo.svg"
+     logoText = "2bytes"
+     alt = "just my 2bytes"
+
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "about"
+        name = "About Me"
+        url = "/about"
