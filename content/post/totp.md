@@ -25,7 +25,7 @@ Before beginning the setup of 2-Factor auth on your Raspberry Pi, there are some
     - Enter the command `passwd` while logged in as the `pi` user, you'll be prompted to enter the existing password, then the new one, twice.
 2. Create a new user, other than `pi`, with your own name, for example, I would use `hamid`, with a password that is strong but memorable.
 
-```
+```shell
 sudo adduser hamid
 Adding user `hamid' ...
 Adding new group `hamid' (1001) ...
@@ -47,14 +47,14 @@ Is the information correct? [Y/n] y
 
 4. Add your user to the `sudo` group so you can perform admin tasks with the `sudo` command.
 
-```
+```shell
 sudo usermod -aG sudo <username>
 ```
 The `pi` user is a member of lots of other groups, your new user will start as a member of only your own name group.
 
 Be sure to add other groups if you need access to other features, such as the `gpio`, `i2c` or `spi` on your Pi for your projects.
 
-```
+```shell
 groups pi
 pi : pi adm dialout cdrom sudo audio video plugdev games users input netdev spi i2c gpio
 ```
@@ -85,16 +85,16 @@ If configured correctly you user should have `sudo` access (see above; you need 
 
 First we need to install the pam-oath plugin, this allows the authentication system to support [oath](http://www.nongnu.org/oath-toolkit/index.html)
 and the qrencode tool to add the one time pass to our smartphone app.
-```
+```shell
 sudo apt-get install -y libpam-oath qrencode
 ```
 
 Next, edit the sshd config to enable challenge-response authentication:
-```
+```shell
 sudo nano /etc/ssh/sshd_config
 ```
 Set the following line from `no` to yes
-```
+```shell
 # Change to yes to enable challenge-response passwords (beware issues with
 # some PAM modules and threads)
 ChallengeResponseAuthentication yes
@@ -138,7 +138,7 @@ First, we need to convert the secret from above, to Base32, which is required by
 ```shell
 echo <your secret> | xxd -r -p | base32
 ```
-The output will be a Base32 string, like this:
+The output will be a Base32 string, something like this:
 ```shell
 6IOP7N7FIWMJNMUY4ZOVQYIXDBWNHOYV
 ```
@@ -148,12 +148,12 @@ Now generate a QR code to scan with your phone:
 ```shell
 qrencode -t UTF8 "otpauth://totp/RaspberryPi%20SSH:user%40raspberrypi?secret=<yoursecret>&issuer=user"
 ```
-Be sure to replace `user` in both places with your user, and put your secret Base32 from the last step just after `secret=` and before `&issuer`d
+Be sure to replace `user` in both places with your user, and put your secret Base32 from the last step just after `secret=` and before `&issuer`.
 
-When you run this, qrencode will print out a QR in your terminal, press the QR icon in the App on your phone and scan it, 
+When you run this, `qrencode` will print out a QR in your terminal, press the QR icon in the App on your phone and scan it,
 if successful you should see a new item added to your codes list in the app.
 
-If it fails to scan, make sure you didn't accidently remove any characters above and try generate the QR code again.
+If it fails to scan, make sure you didn't accidently remove any characters above, make sure you used the Base32 secret, and try generate the QR code again.
 
 Finally, we need to restart the ssh server, and test our login;
 ```shell
@@ -164,19 +164,18 @@ Open a new terminal (don't close the old one, you might need it if anything is w
 ssh user@raspberrypi
 ```
 You'll be prompted for your password:
-```
-ssh raspberrypi
+```shell
 Password:
 ```
 Once you type that correctly, you should be prompted for your One-time password:
-```
+```shell
 One-time password (OATH) for `user': 
 ```
 Tap the entry in your mobile App and it'll display a 6 digit pass valid for 30 seconds or less, enter that and you'll be logged in!
 
 If you can't log in, double check all of the previous steps, and if you change any configuration files, be sure to restart ssh `sudo service ssh restart`.
 
-That's it, now you have secured your Pi with 2-Factor authentication.
+That's it, now you have secured your Pi with 2-Factor authentication, from now on, you'll need your phone and the FreeOTP app to login.
 
 ## Cleanup
 
@@ -185,13 +184,13 @@ Final note. It is good practice to clear your shell history since the secrets we
 You can type `history` to see what I mean.
 
 Run the following to clear the entire history
-```
+```shell
 history -c
 ```
 This will remove all entries from your shell history on the Pi (or the machine you ran it on, if not the Pi).
 
 Or to remove just a single entry by number:
-```
+```shell
 history -d 24
 ```
 
