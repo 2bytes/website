@@ -1,0 +1,3 @@
+[submodule "themes/hello-2bytes"]
+	path = themes/hello-2bytes
+	url = https://github.com/hamid-elaosta/hugo-theme-hello-friend.git

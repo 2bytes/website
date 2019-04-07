@@ -1,20 +1,13 @@
 +++
-date = "2016-07-27T00:29:14+01:00"
-draft = false
-title = "About"
-image = "banner.png"
+title = "About Me"
 +++
 
-# Hello, 2bytes
+I, [Hamid Elaosta (Twitter)](https://twitter.com/alias_neo_one) am a Software Engineer based in London, England. I studied Electronic Engineering at University and love to play with electronics projects.
 
-Welcome to 2bytes.
+Professionally I spend my time writing software, with a focus on security. My language of choice these days is [Golang](https://golang.org/), but I also spent the first half-decade of my career creating Android applications in Java, with the odd sprinkle of other platforms in C and C++ here and there.
 
-This is a place for me [Hamid Elaosta (Twitter)](https://twitter.com/alias_neo_one) to store and share things I find of interest.
+I strongly believe in Open Source and Libre software; everything I finish goes on [my Github](https://github.com/hamid-elaosta) (Note I keep a Github organisation for things related to this site; [2bytes Github](https://github.com/2bytes)), and I'm trying to encourage myself to release more of my work there even when I feel it's not *ready* yet. 
 
-This site, unlike the previous one, is static. There is no PHP, no comment system, no wordpress, no analytics or tracking; Just a Git repository [(Github)](https://github.com/2bytes/website) and a simple web server.
+I use Linux as my only operating system, both at home and at work, I'm always happy to discuss my reasons for that, but for now I'll just say that I first started tinkering with Linux based distros in my early teens.
 
-I have chosen not to maintain a comment system here so feel free to contact me on Twitter or by any other means you are able to find.
-
-I am a Software Engineer primarily, so what better way to be able to update this site than to commit my changes to git?
-
-If you have comment, complaints, suggestions or any general feedback on the posts here I'd love to hear it.
+Privacy and security have been an important focus for me for some time, and I intend to blog more about that. Those ideals are constant throughout my work, from why I write code that supports self-issuing your TLS certificates, to why this blog contains no analytics or cookies, and certainly, with a passion, no adverts.
