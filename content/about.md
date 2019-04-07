@@ -1,6 +1,5 @@
 +++
 title = "About Me"
-image = "banner.png"
 +++
 
 I, [Hamid Elaosta (Twitter)](https://twitter.com/alias_neo_one) am a Software Engineer based in London, England. I studied Electronic Engineering at University and love to play with electronics projects.
