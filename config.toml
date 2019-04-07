@@ -1,7 +1,7 @@
 baseurl = "/"
 languageCode = "en-gb"
 theme = "hello-2bytes"
-paginate = 10
+paginate = 20
 
 [params]
   # dir name of your blog content (default is `content/posts`)
@@ -9,7 +9,7 @@ paginate = 10
   # "light" or "dark"
   defaultTheme = "dark"
   # if you set this to 0, only submenu trigger will be visible
-  showMenuItems = 1
+  showMenuItems = 3
   # Show reading time in minutes for posts
   showReadingTime = false
 
@@ -17,14 +17,14 @@ paginate = 10
   [languages.en]
     title = "2bytes"
     subtitle = "just my 2bytes"
-    keywords = ""
+    keywords = "raspberry pi, linux, security, electronics, soldering, docker, golang"
     copyright = ""
     menuMore = "Show more"
     writtenBy = "Written by"
     readMore = "read on"
-    readOtherPosts = "Read other posts"
-    newerPosts = "Newer posts"
-    olderPosts = "Older posts"
+    readOtherPosts = "read other posts"
+    newerPosts = "newer posts"
+    olderPosts = "older posts"
     minuteReadingTime = "min read"
     dateFormatSingle = "2006-01-02"
     dateFormatList = "2006-01-02"
