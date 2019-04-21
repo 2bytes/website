@@ -111,7 +111,7 @@ Add a new line, near the top of the file, under `@include common-auth`
 auth requisite pam_oath.so usersfile=/etc/users.oath digits=6 window=30
 ```
 This tells pam that we want to add an auth requirement, that it should use the pam_auth plugin, 
-the users can be looked up in `/etc/users.oath`, that are passes will be 6 digits and valid for 20 seconds.
+the users can be looked up in `/etc/users.oath`, that our passes will be 6 digits and valid for 20 seconds.
 
 Now we need to generate our secret and set it in the `/etc/users.oath`, you can use `openssl` to do this:
 
