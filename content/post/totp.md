@@ -5,9 +5,11 @@ draft = false
 +++
 
 In this post I will show how simple it is to enable 2-Factor authentication using a Raspberry Pi, and your smartphone,
-but this can also be done for other Linux devices and Servers too.
+but this can also be done for other Linux devices and servers too.
 
 <!--more-->
+
+> You can contribute issues/fixes to this post on Github: [here](https://github.com/2bytes/website/issues)
 
 ## Why 2-Factor?
 
@@ -63,7 +65,7 @@ Now, in a new terminal/ssh client you should be able to ssh into your Pi as your
 
 ## Setting up your own 2-Factor
 
-> This post assumes a debian based Linux distro, and therefore the `apt` package manager, mainly because the Pi runs Raspbian, based on debian.
+> This post assumes a debian based Linux distro, and therefore the `apt` package manager, mainly because the Pi runs Raspbian, based on Debian.
 > If you use another distro on your server, you can still follow this, but installing packages will use a different package manager and possibly package names.
 > You might even use a different editor instead of `nano` such as `vim` or `emacs`.
 
