@@ -1,7 +1,7 @@
 ---
 title: "SSH 2-Factor's First Factor"
 date: 2019-04-28T12:42:11+01:00
-draft: true
+draft: false
 ---
 
 In my previous post ["SSH 2-Factor on Linux (RPi)"]({{< ref "/post/totp.md" >}}) we enabled OTP as a second factor. That's a nice step in securing your SSH sessions however it's not the only step,
