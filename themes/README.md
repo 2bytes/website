@@ -8,8 +8,14 @@ are clearly directed at someone who knows npm/nodejs/webpack et al, I simply fig
 
 I'm including these commands here to remind myself, more than anything, how I did this, for next time:
 
+First clone the submodule if you haven't already; start by changing to the `themes` directory:
+```console
+cd themes
+git submodule update --init
+```
+
 From the current directory (`themes`) run the following:
-```shell
+```console
 docker run -it -v $(pwd)/hello-2bytes:/theme node:11-alpine /bin/sh 
 ```
 this will drop you at an alpine linux shell, now run the setup from the `hello-friend` README:
