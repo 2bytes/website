@@ -1,7 +1,7 @@
 ---
 title: "vcgencmd for Ubuntu 20.04 aarch64 on RPi 4B"
 date: 2021-01-03T17:54:42Z
-draft: true
+draft: false
 ---
 
 ### Happy New Year!
