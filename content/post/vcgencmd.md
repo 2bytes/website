@@ -82,7 +82,7 @@ sudo usermod -aG video <user>
 12. Exit the SSH session on the Pi and log in again to join your new group
 13. Add a udev rule to set the permissions on the vchiq device;
 ```console
-echo "SUBSYSTEM=="vchiq", GROUP="video", MODE="0660" | sudo tee /etc/udev/rules.d/99-input.rules
+echo 'SUBSYSTEM=="vchiq", GROUP="video", MODE="0660"' | sudo tee /etc/udev/rules.d/99-input.rules
 ```
 14. Reload the udev rules;
 ```console
