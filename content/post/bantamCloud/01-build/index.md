@@ -1,7 +1,7 @@
 ---
 title: "bantamCloud - Part 1 - Building"
 date: 2021-01-07T20:07:52Z
-draft: true
+draft: false
 cover: "images/Pi-MicroCluster.jpg"
 useRelativeCover: true
 ---
