@@ -1,7 +1,7 @@
 ---
 title: "bantamCloud - Part 1 - Building"
 date: 2021-01-07T20:07:52Z
-draft: true
+draft: false
 cover: "images/Pi-MicroCluster.jpg"
 useRelativeCover: true
 ---
@@ -32,17 +32,17 @@ Fortunately, the design of the Raspberry Pi lends very well to using standoffs t
 
 * Cluster
     * 3D Printed parts (STLs below)
-    * 1x 4+ Port USB Power Supply (See mount diagram below for dimensions)
-    * 3x Raspberry Pi 4B
-    * 12x M3x15 (+6mm of screw thread) standoffs
-    * 4x M3x6 Bolt
-    * 4x M3 Nut
+    * (1x) 4+ Port USB Power Supply (See mount diagram below for dimensions)
+    * (3x) Raspberry Pi 4B
+    * (12x) M3x15 (+6mm of screw thread) standoffs
+    * (4x) M3x6 Bolt
+    * (4x) M3 Nut
 * Fan Mount
-    * 1x 92mmx10mm PC fan (5V ideally or 12V if running at lower speed)
-    * 2x M3x25 Bolt (Long; for mounting to fan mount);
-    * 2x M3x20 Bolt (Short; for mounting fan shroud)
-    * 2x M3 Washer
-    * 4x M3 Nut
+    * (1x) 92mmx10mm PC fan (5V ideally or 12V if running at lower speed)
+    * (2x) M3x25 Bolt (Long; for mounting to fan mount);
+    * (2x) M3x20 Bolt (Short; for mounting fan shroud)
+    * (2x) M3 Washer
+    * (4x) M3 Nut
 
 > _NOTE ON FAN DIMENSIONS_: If the 12V fan you have doesn't work at 5V, use a 5V fan (Noctua makes the NF-A9 which comes with a USB adapter cable; I haven't used it personally so YMMV) or a step-up voltage converter. *Bear in mind, all of the 5V fans I've seen are thicker, so you'll need longer bolts than those listen above*. If you're measuring a fan yourself, that the advertised sizes are end-to-end dimensions of the outer frame for box-type fans, the distance between holes in the 92mm fan is closer to ~82-83mm.
 
