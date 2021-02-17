@@ -30,7 +30,7 @@ paginate = 20
     dateFormatList = "2006-01-02"
 
     [languages.en.params.logo]
-     path = "/images/2bytes_logo.svg"
+     path = "/images/favicon.png"
      logoText = "2bytes"
      alt = "just my 2bytes"
 

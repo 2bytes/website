@@ -1,0 +1,4865 @@
+{
+    "meta": {
+     "version": "1",
+     "type": "dashboard",
+     "name": "bantam-Template",
+     "description": "template created from dashboard: bantam"
+    },
+    "content": {
+     "data": {
+      "type": "dashboard",
+      "attributes": {
+       "name": "bantam",
+       "description": "A collection of useful visualizations for monitoring your system stats"
+      },
+      "relationships": {
+       "label": {
+        "data": []
+       },
+       "cell": {
+        "data": [
+         {
+          "type": "cell",
+          "id": "06f94cb89127d000"
+         },
+         {
+          "type": "cell",
+          "id": "06f94cb891a7d000"
+         },
+         {
+          "type": "cell",
+          "id": "06f94cb89227d000"
+         },
+         {
+          "type": "cell",
+          "id": "06f94cb892a7d000"
+         },
+         {
+          "type": "cell",
+          "id": "06f94cb89327d000"
+         },
+         {
+          "type": "cell",
+          "id": "06f94cb893a7d000"
+         },
+         {
+          "type": "cell",
+          "id": "06f94cb89427d000"
+         },
+         {
+          "type": "cell",
+          "id": "06f94cb89527d000"
+         },
+         {
+          "type": "cell",
+          "id": "06f94cb89667d000"
+         },
+         {
+          "type": "cell",
+          "id": "06f94cb896e7d000"
+         },
+         {
+          "type": "cell",
+          "id": "06f94cb89767d000"
+         },
+         {
+          "type": "cell",
+          "id": "06f95073ece7d000"
+         },
+         {
+          "type": "cell",
+          "id": "06f9521d9aa7d000"
+         },
+         {
+          "type": "cell",
+          "id": "06f9524dbf27d000"
+         },
+         {
+          "type": "cell",
+          "id": "06f952546167d000"
+         },
+         {
+          "type": "cell",
+          "id": "06f9540887e7d000"
+         },
+         {
+          "type": "cell",
+          "id": "06f954186de7d000"
+         },
+         {
+          "type": "cell",
+          "id": "06f9542c8be7d000"
+         },
+         {
+          "type": "cell",
+          "id": "06f9564f4fe7d000"
+         },
+         {
+          "type": "cell",
+          "id": "06f956d96827d000"
+         },
+         {
+          "type": "cell",
+          "id": "06f9571e0b27d000"
+         },
+         {
+          "type": "cell",
+          "id": "06f95bc2b967d000"
+         },
+         {
+          "type": "cell",
+          "id": "06f95bcb9d27d000"
+         },
+         {
+          "type": "cell",
+          "id": "06f95c1ee527d000"
+         },
+         {
+          "type": "cell",
+          "id": "06f95c2a3fa7d000"
+         },
+         {
+          "type": "cell",
+          "id": "06f95c5a37a7d000"
+         },
+         {
+          "type": "cell",
+          "id": "06f95c77ca67d000"
+         },
+         {
+          "type": "cell",
+          "id": "06f95c975a67d000"
+         },
+         {
+          "type": "cell",
+          "id": "06f95cc66967d000"
+         },
+         {
+          "type": "cell",
+          "id": "06f95d0dcba7d000"
+         },
+         {
+          "type": "cell",
+          "id": "06f95d74af27d000"
+         },
+         {
+          "type": "cell",
+          "id": "06f95da76aa7d000"
+         },
+         {
+          "type": "cell",
+          "id": "06f99965c4a7d000"
+         },
+         {
+          "type": "cell",
+          "id": "06f99a6601e7d000"
+         },
+         {
+          "type": "cell",
+          "id": "06f99a8fcba7d000"
+         },
+         {
+          "type": "cell",
+          "id": "06f99c39fb67d000"
+         },
+         {
+          "type": "cell",
+          "id": "06f99c3c8367d000"
+         },
+         {
+          "type": "cell",
+          "id": "06f99c437c67d000"
+         },
+         {
+          "type": "cell",
+          "id": "06f99cdb9127d000"
+         },
+         {
+          "type": "cell",
+          "id": "06f99cdf2567d000"
+         },
+         {
+          "type": "cell",
+          "id": "06f99d3a9b67d000"
+         },
+         {
+          "type": "cell",
+          "id": "06f99d50faa7d000"
+         },
+         {
+          "type": "cell",
+          "id": "06f99d5904e7d000"
+         },
+         {
+          "type": "cell",
+          "id": "06f99d5ca7a7d000"
+         },
+         {
+          "type": "cell",
+          "id": "06f9b69e99e7d000"
+         },
+         {
+          "type": "cell",
+          "id": "06f9b6cccd67d000"
+         },
+         {
+          "type": "cell",
+          "id": "06f9b6e31027d000"
+         },
+         {
+          "type": "cell",
+          "id": "06f9b6e931a7d000"
+         },
+         {
+          "type": "cell",
+          "id": "0705134ec88a9000"
+         },
+         {
+          "type": "cell",
+          "id": "07051372158a9000"
+         },
+         {
+          "type": "cell",
+          "id": "0705140f4c0a9000"
+         }
+        ]
+       },
+       "variable": {
+        "data": [
+         {
+          "type": "variable",
+          "id": "06f94cb8a99fd000"
+         },
+         {
+          "type": "variable",
+          "id": "0715cd3cb3e61000"
+         }
+        ]
+       }
+      }
+     },
+     "included": [
+      {
+       "id": "06f94cb89127d000",
+       "type": "cell",
+       "attributes": {
+        "x": 0,
+        "y": 3,
+        "w": 1,
+        "h": 1
+       },
+       "relationships": {
+        "view": {
+         "data": {
+          "type": "view",
+          "id": "06f94cb89127d000"
+         }
+        }
+       }
+      },
+      {
+       "id": "06f94cb891a7d000",
+       "type": "cell",
+       "attributes": {
+        "x": 2,
+        "y": 3,
+        "w": 1,
+        "h": 1
+       },
+       "relationships": {
+        "view": {
+         "data": {
+          "type": "view",
+          "id": "06f94cb891a7d000"
+         }
+        }
+       }
+      },
+      {
+       "id": "06f94cb89227d000",
+       "type": "cell",
+       "attributes": {
+        "x": 0,
+        "y": 7,
+        "w": 2,
+        "h": 2
+       },
+       "relationships": {
+        "view": {
+         "data": {
+          "type": "view",
+          "id": "06f94cb89227d000"
+         }
+        }
+       }
+      },
+      {
+       "id": "06f94cb892a7d000",
+       "type": "cell",
+       "attributes": {
+        "x": 3,
+        "y": 3,
+        "w": 1,
+        "h": 1
+       },
+       "relationships": {
+        "view": {
+         "data": {
+          "type": "view",
+          "id": "06f94cb892a7d000"
+         }
+        }
+       }
+      },
+      {
+       "id": "06f94cb89327d000",
+       "type": "cell",
+       "attributes": {
+        "x": 0,
+        "y": 13,
+        "w": 4,
+        "h": 2
+       },
+       "relationships": {
+        "view": {
+         "data": {
+          "type": "view",
+          "id": "06f94cb89327d000"
+         }
+        }
+       }
+      },
+      {
+       "id": "06f94cb893a7d000",
+       "type": "cell",
+       "attributes": {
+        "x": 2,
+        "y": 4,
+        "w": 2,
+        "h": 3
+       },
+       "relationships": {
+        "view": {
+         "data": {
+          "type": "view",
+          "id": "06f94cb893a7d000"
+         }
+        }
+       }
+      },
+      {
+       "id": "06f94cb89427d000",
+       "type": "cell",
+       "attributes": {
+        "x": 0,
+        "y": 11,
+        "w": 4,
+        "h": 2
+       },
+       "relationships": {
+        "view": {
+         "data": {
+          "type": "view",
+          "id": "06f94cb89427d000"
+         }
+        }
+       }
+      },
+      {
+       "id": "06f94cb89527d000",
+       "type": "cell",
+       "attributes": {
+        "x": 0,
+        "y": 9,
+        "w": 4,
+        "h": 2
+       },
+       "relationships": {
+        "view": {
+         "data": {
+          "type": "view",
+          "id": "06f94cb89527d000"
+         }
+        }
+       }
+      },
+      {
+       "id": "06f94cb89667d000",
+       "type": "cell",
+       "attributes": {
+        "x": 0,
+        "y": 4,
+        "w": 2,
+        "h": 3
+       },
+       "relationships": {
+        "view": {
+         "data": {
+          "type": "view",
+          "id": "06f94cb89667d000"
+         }
+        }
+       }
+      },
+      {
+       "id": "06f94cb896e7d000",
+       "type": "cell",
+       "attributes": {
+        "x": 1,
+        "y": 3,
+        "w": 1,
+        "h": 1
+       },
+       "relationships": {
+        "view": {
+         "data": {
+          "type": "view",
+          "id": "06f94cb896e7d000"
+         }
+        }
+       }
+      },
+      {
+       "id": "06f94cb89767d000",
+       "type": "cell",
+       "attributes": {
+        "x": 0,
+        "y": 15,
+        "w": 4,
+        "h": 2
+       },
+       "relationships": {
+        "view": {
+         "data": {
+          "type": "view",
+          "id": "06f94cb89767d000"
+         }
+        }
+       }
+      },
+      {
+       "id": "06f95073ece7d000",
+       "type": "cell",
+       "attributes": {
+        "x": 0,
+        "y": 1,
+        "w": 4,
+        "h": 2
+       },
+       "relationships": {
+        "view": {
+         "data": {
+          "type": "view",
+          "id": "06f95073ece7d000"
+         }
+        }
+       }
+      },
+      {
+       "id": "06f9521d9aa7d000",
+       "type": "cell",
+       "attributes": {
+        "x": 4,
+        "y": 1,
+        "w": 4,
+        "h": 2
+       },
+       "relationships": {
+        "view": {
+         "data": {
+          "type": "view",
+          "id": "06f9521d9aa7d000"
+         }
+        }
+       }
+      },
+      {
+       "id": "06f9524dbf27d000",
+       "type": "cell",
+       "attributes": {
+        "x": 4,
+        "y": 3,
+        "w": 1,
+        "h": 1
+       },
+       "relationships": {
+        "view": {
+         "data": {
+          "type": "view",
+          "id": "06f9524dbf27d000"
+         }
+        }
+       }
+      },
+      {
+       "id": "06f952546167d000",
+       "type": "cell",
+       "attributes": {
+        "x": 6,
+        "y": 3,
+        "w": 1,
+        "h": 1
+       },
+       "relationships": {
+        "view": {
+         "data": {
+          "type": "view",
+          "id": "06f952546167d000"
+         }
+        }
+       }
+      },
+      {
+       "id": "06f9540887e7d000",
+       "type": "cell",
+       "attributes": {
+        "x": 5,
+        "y": 3,
+        "w": 1,
+        "h": 1
+       },
+       "relationships": {
+        "view": {
+         "data": {
+          "type": "view",
+          "id": "06f9540887e7d000"
+         }
+        }
+       }
+      },
+      {
+       "id": "06f954186de7d000",
+       "type": "cell",
+       "attributes": {
+        "x": 7,
+        "y": 3,
+        "w": 1,
+        "h": 1
+       },
+       "relationships": {
+        "view": {
+         "data": {
+          "type": "view",
+          "id": "06f954186de7d000"
+         }
+        }
+       }
+      },
+      {
+       "id": "06f9542c8be7d000",
+       "type": "cell",
+       "attributes": {
+        "x": 4,
+        "y": 4,
+        "w": 2,
+        "h": 3
+       },
+       "relationships": {
+        "view": {
+         "data": {
+          "type": "view",
+          "id": "06f9542c8be7d000"
+         }
+        }
+       }
+      },
+      {
+       "id": "06f9564f4fe7d000",
+       "type": "cell",
+       "attributes": {
+        "x": 4,
+        "y": 7,
+        "w": 2,
+        "h": 2
+       },
+       "relationships": {
+        "view": {
+         "data": {
+          "type": "view",
+          "id": "06f9564f4fe7d000"
+         }
+        }
+       }
+      },
+      {
+       "id": "06f956d96827d000",
+       "type": "cell",
+       "attributes": {
+        "x": 6,
+        "y": 4,
+        "w": 2,
+        "h": 3
+       },
+       "relationships": {
+        "view": {
+         "data": {
+          "type": "view",
+          "id": "06f956d96827d000"
+         }
+        }
+       }
+      },
+      {
+       "id": "06f9571e0b27d000",
+       "type": "cell",
+       "attributes": {
+        "x": 8,
+        "y": 1,
+        "w": 4,
+        "h": 2
+       },
+       "relationships": {
+        "view": {
+         "data": {
+          "type": "view",
+          "id": "06f9571e0b27d000"
+         }
+        }
+       }
+      },
+      {
+       "id": "06f95bc2b967d000",
+       "type": "cell",
+       "attributes": {
+        "x": 8,
+        "y": 3,
+        "w": 1,
+        "h": 1
+       },
+       "relationships": {
+        "view": {
+         "data": {
+          "type": "view",
+          "id": "06f95bc2b967d000"
+         }
+        }
+       }
+      },
+      {
+       "id": "06f95bcb9d27d000",
+       "type": "cell",
+       "attributes": {
+        "x": 10,
+        "y": 3,
+        "w": 1,
+        "h": 1
+       },
+       "relationships": {
+        "view": {
+         "data": {
+          "type": "view",
+          "id": "06f95bcb9d27d000"
+         }
+        }
+       }
+      },
+      {
+       "id": "06f95c1ee527d000",
+       "type": "cell",
+       "attributes": {
+        "x": 9,
+        "y": 3,
+        "w": 1,
+        "h": 1
+       },
+       "relationships": {
+        "view": {
+         "data": {
+          "type": "view",
+          "id": "06f95c1ee527d000"
+         }
+        }
+       }
+      },
+      {
+       "id": "06f95c2a3fa7d000",
+       "type": "cell",
+       "attributes": {
+        "x": 11,
+        "y": 3,
+        "w": 1,
+        "h": 1
+       },
+       "relationships": {
+        "view": {
+         "data": {
+          "type": "view",
+          "id": "06f95c2a3fa7d000"
+         }
+        }
+       }
+      },
+      {
+       "id": "06f95c5a37a7d000",
+       "type": "cell",
+       "attributes": {
+        "x": 8,
+        "y": 4,
+        "w": 2,
+        "h": 3
+       },
+       "relationships": {
+        "view": {
+         "data": {
+          "type": "view",
+          "id": "06f95c5a37a7d000"
+         }
+        }
+       }
+      },
+      {
+       "id": "06f95c77ca67d000",
+       "type": "cell",
+       "attributes": {
+        "x": 8,
+        "y": 7,
+        "w": 2,
+        "h": 2
+       },
+       "relationships": {
+        "view": {
+         "data": {
+          "type": "view",
+          "id": "06f95c77ca67d000"
+         }
+        }
+       }
+      },
+      {
+       "id": "06f95c975a67d000",
+       "type": "cell",
+       "attributes": {
+        "x": 10,
+        "y": 4,
+        "w": 2,
+        "h": 3
+       },
+       "relationships": {
+        "view": {
+         "data": {
+          "type": "view",
+          "id": "06f95c975a67d000"
+         }
+        }
+       }
+      },
+      {
+       "id": "06f95cc66967d000",
+       "type": "cell",
+       "attributes": {
+        "x": 4,
+        "y": 9,
+        "w": 4,
+        "h": 2
+       },
+       "relationships": {
+        "view": {
+         "data": {
+          "type": "view",
+          "id": "06f95cc66967d000"
+         }
+        }
+       }
+      },
+      {
+       "id": "06f95d0dcba7d000",
+       "type": "cell",
+       "attributes": {
+        "x": 8,
+        "y": 9,
+        "w": 4,
+        "h": 2
+       },
+       "relationships": {
+        "view": {
+         "data": {
+          "type": "view",
+          "id": "06f95d0dcba7d000"
+         }
+        }
+       }
+      },
+      {
+       "id": "06f95d74af27d000",
+       "type": "cell",
+       "attributes": {
+        "x": 4,
+        "y": 11,
+        "w": 4,
+        "h": 2
+       },
+       "relationships": {
+        "view": {
+         "data": {
+          "type": "view",
+          "id": "06f95d74af27d000"
+         }
+        }
+       }
+      },
+      {
+       "id": "06f95da76aa7d000",
+       "type": "cell",
+       "attributes": {
+        "x": 8,
+        "y": 11,
+        "w": 4,
+        "h": 2
+       },
+       "relationships": {
+        "view": {
+         "data": {
+          "type": "view",
+          "id": "06f95da76aa7d000"
+         }
+        }
+       }
+      },
+      {
+       "id": "06f99965c4a7d000",
+       "type": "cell",
+       "attributes": {
+        "x": 2,
+        "y": 7,
+        "w": 1,
+        "h": 1
+       },
+       "relationships": {
+        "view": {
+         "data": {
+          "type": "view",
+          "id": "06f99965c4a7d000"
+         }
+        }
+       }
+      },
+      {
+       "id": "06f99a6601e7d000",
+       "type": "cell",
+       "attributes": {
+        "x": 6,
+        "y": 7,
+        "w": 1,
+        "h": 1
+       },
+       "relationships": {
+        "view": {
+         "data": {
+          "type": "view",
+          "id": "06f99a6601e7d000"
+         }
+        }
+       }
+      },
+      {
+       "id": "06f99a8fcba7d000",
+       "type": "cell",
+       "attributes": {
+        "x": 10,
+        "y": 7,
+        "w": 1,
+        "h": 1
+       },
+       "relationships": {
+        "view": {
+         "data": {
+          "type": "view",
+          "id": "06f99a8fcba7d000"
+         }
+        }
+       }
+      },
+      {
+       "id": "06f99c39fb67d000",
+       "type": "cell",
+       "attributes": {
+        "x": 3,
+        "y": 7,
+        "w": 1,
+        "h": 1
+       },
+       "relationships": {
+        "view": {
+         "data": {
+          "type": "view",
+          "id": "06f99c39fb67d000"
+         }
+        }
+       }
+      },
+      {
+       "id": "06f99c3c8367d000",
+       "type": "cell",
+       "attributes": {
+        "x": 2,
+        "y": 8,
+        "w": 1,
+        "h": 1
+       },
+       "relationships": {
+        "view": {
+         "data": {
+          "type": "view",
+          "id": "06f99c3c8367d000"
+         }
+        }
+       }
+      },
+      {
+       "id": "06f99c437c67d000",
+       "type": "cell",
+       "attributes": {
+        "x": 3,
+        "y": 8,
+        "w": 1,
+        "h": 1
+       },
+       "relationships": {
+        "view": {
+         "data": {
+          "type": "view",
+          "id": "06f99c437c67d000"
+         }
+        }
+       }
+      },
+      {
+       "id": "06f99cdb9127d000",
+       "type": "cell",
+       "attributes": {
+        "x": 7,
+        "y": 7,
+        "w": 1,
+        "h": 1
+       },
+       "relationships": {
+        "view": {
+         "data": {
+          "type": "view",
+          "id": "06f99cdb9127d000"
+         }
+        }
+       }
+      },
+      {
+       "id": "06f99cdf2567d000",
+       "type": "cell",
+       "attributes": {
+        "x": 6,
+        "y": 8,
+        "w": 1,
+        "h": 1
+       },
+       "relationships": {
+        "view": {
+         "data": {
+          "type": "view",
+          "id": "06f99cdf2567d000"
+         }
+        }
+       }
+      },
+      {
+       "id": "06f99d3a9b67d000",
+       "type": "cell",
+       "attributes": {
+        "x": 7,
+        "y": 8,
+        "w": 1,
+        "h": 1
+       },
+       "relationships": {
+        "view": {
+         "data": {
+          "type": "view",
+          "id": "06f99d3a9b67d000"
+         }
+        }
+       }
+      },
+      {
+       "id": "06f99d50faa7d000",
+       "type": "cell",
+       "attributes": {
+        "x": 11,
+        "y": 7,
+        "w": 1,
+        "h": 1
+       },
+       "relationships": {
+        "view": {
+         "data": {
+          "type": "view",
+          "id": "06f99d50faa7d000"
+         }
+        }
+       }
+      },
+      {
+       "id": "06f99d5904e7d000",
+       "type": "cell",
+       "attributes": {
+        "x": 10,
+        "y": 8,
+        "w": 1,
+        "h": 1
+       },
+       "relationships": {
+        "view": {
+         "data": {
+          "type": "view",
+          "id": "06f99d5904e7d000"
+         }
+        }
+       }
+      },
+      {
+       "id": "06f99d5ca7a7d000",
+       "type": "cell",
+       "attributes": {
+        "x": 11,
+        "y": 8,
+        "w": 1,
+        "h": 1
+       },
+       "relationships": {
+        "view": {
+         "data": {
+          "type": "view",
+          "id": "06f99d5ca7a7d000"
+         }
+        }
+       }
+      },
+      {
+       "id": "06f9b69e99e7d000",
+       "type": "cell",
+       "attributes": {
+        "x": 4,
+        "y": 13,
+        "w": 4,
+        "h": 2
+       },
+       "relationships": {
+        "view": {
+         "data": {
+          "type": "view",
+          "id": "06f9b69e99e7d000"
+         }
+        }
+       }
+      },
+      {
+       "id": "06f9b6cccd67d000",
+       "type": "cell",
+       "attributes": {
+        "x": 4,
+        "y": 15,
+        "w": 4,
+        "h": 2
+       },
+       "relationships": {
+        "view": {
+         "data": {
+          "type": "view",
+          "id": "06f9b6cccd67d000"
+         }
+        }
+       }
+      },
+      {
+       "id": "06f9b6e31027d000",
+       "type": "cell",
+       "attributes": {
+        "x": 8,
+        "y": 13,
+        "w": 4,
+        "h": 2
+       },
+       "relationships": {
+        "view": {
+         "data": {
+          "type": "view",
+          "id": "06f9b6e31027d000"
+         }
+        }
+       }
+      },
+      {
+       "id": "06f9b6e931a7d000",
+       "type": "cell",
+       "attributes": {
+        "x": 8,
+        "y": 15,
+        "w": 4,
+        "h": 2
+       },
+       "relationships": {
+        "view": {
+         "data": {
+          "type": "view",
+          "id": "06f9b6e931a7d000"
+         }
+        }
+       }
+      },
+      {
+       "id": "0705134ec88a9000",
+       "type": "cell",
+       "attributes": {
+        "x": 0,
+        "y": 0,
+        "w": 4,
+        "h": 1
+       },
+       "relationships": {
+        "view": {
+         "data": {
+          "type": "view",
+          "id": "0705134ec88a9000"
+         }
+        }
+       }
+      },
+      {
+       "id": "07051372158a9000",
+       "type": "cell",
+       "attributes": {
+        "x": 4,
+        "y": 0,
+        "w": 4,
+        "h": 1
+       },
+       "relationships": {
+        "view": {
+         "data": {
+          "type": "view",
+          "id": "07051372158a9000"
+         }
+        }
+       }
+      },
+      {
+       "id": "0705140f4c0a9000",
+       "type": "cell",
+       "attributes": {
+        "x": 8,
+        "y": 0,
+        "w": 4,
+        "h": 1
+       },
+       "relationships": {
+        "view": {
+         "data": {
+          "type": "view",
+          "id": "0705140f4c0a9000"
+         }
+        }
+       }
+      },
+      {
+       "type": "view",
+       "id": "06f94cb89127d000",
+       "attributes": {
+        "name": "nCPUs",
+        "properties": {
+         "shape": "chronograf-v2",
+         "type": "single-stat",
+         "queries": [
+          {
+           "text": "from(bucket: \"bantam\")\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r[\"_measurement\"] == \"system\")\n  |> filter(fn: (r) => r[\"_field\"] == \"n_cpus\")\n  |> filter(fn: (r) => r[\"host\"] == v.pi1)\n  |> aggregateWindow(every: v.windowPeriod, fn: last, createEmpty: false)\n  |> yield(name: \"last\")",
+           "editMode": "advanced",
+           "name": "",
+           "builderConfig": {
+            "buckets": [],
+            "tags": [
+             {
+              "key": "_measurement",
+              "values": [],
+              "aggregateFunctionType": "filter"
+             }
+            ],
+            "functions": [
+             {
+              "name": "mean"
+             }
+            ],
+            "aggregateWindow": {
+             "period": "auto",
+             "fillValues": false
+            }
+           }
+          }
+         ],
+         "prefix": "",
+         "tickPrefix": "",
+         "suffix": " cpus",
+         "tickSuffix": "",
+         "colors": [
+          {
+           "id": "base",
+           "type": "text",
+           "hex": "#00C9FF",
+           "name": "laser",
+           "value": 0
+          }
+         ],
+         "decimalPlaces": {
+          "isEnforced": true,
+          "digits": 0
+         },
+         "note": "",
+         "showNoteWhenEmpty": false
+        }
+       }
+      },
+      {
+       "type": "view",
+       "id": "06f94cb891a7d000",
+       "attributes": {
+        "name": "Total Memory",
+        "properties": {
+         "shape": "chronograf-v2",
+         "type": "single-stat",
+         "queries": [
+          {
+           "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart)\n  |> filter(fn: (r) => r._measurement == \"mem\")\n  |> filter(fn: (r) => r._field == \"total\")\n  |> filter(fn: (r) => r[\"host\"] == v.pi1)\n  |> last()\n  |> map(fn: (r) => ({r with _value: float(v: r._value) / 1024.0 / 1024.0 / 1024.0}))\n  |> yield(name: \"last\")\n  ",
+           "editMode": "advanced",
+           "name": "",
+           "builderConfig": {
+            "buckets": [],
+            "tags": [
+             {
+              "key": "_measurement",
+              "values": [],
+              "aggregateFunctionType": "filter"
+             }
+            ],
+            "functions": [
+             {
+              "name": "mean"
+             }
+            ],
+            "aggregateWindow": {
+             "period": "auto",
+             "fillValues": false
+            }
+           }
+          }
+         ],
+         "prefix": "",
+         "tickPrefix": "",
+         "suffix": " GB",
+         "tickSuffix": "",
+         "colors": [
+          {
+           "id": "base",
+           "type": "text",
+           "hex": "#00C9FF",
+           "name": "laser",
+           "value": 0
+          }
+         ],
+         "decimalPlaces": {
+          "isEnforced": true,
+          "digits": 2
+         },
+         "note": "",
+         "showNoteWhenEmpty": false
+        }
+       }
+      },
+      {
+       "type": "view",
+       "id": "06f94cb89227d000",
+       "attributes": {
+        "name": "Disk Usage",
+        "properties": {
+         "shape": "chronograf-v2",
+         "type": "gauge",
+         "queries": [
+          {
+           "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart)\n  |> filter(fn: (r) => r._measurement == \"disk\")\n  |> filter(fn: (r) => r._field == \"used_percent\")\n  |> filter(fn: (r) => r[\"host\"] == v.pi1)\n  |> filter(fn: (r) => r[\"device\"] == \"mmcblk0p2\")\n  |> aggregateWindow(every: v.windowPeriod, fn: mean, createEmpty: false)\n  |> yield(name: \"mean\")",
+           "editMode": "advanced",
+           "name": "",
+           "builderConfig": {
+            "buckets": [],
+            "tags": [
+             {
+              "key": "_measurement",
+              "values": [],
+              "aggregateFunctionType": "filter"
+             }
+            ],
+            "functions": [
+             {
+              "name": "mean"
+             }
+            ],
+            "aggregateWindow": {
+             "period": "auto",
+             "fillValues": false
+            }
+           }
+          }
+         ],
+         "prefix": "",
+         "tickPrefix": "",
+         "suffix": "%",
+         "tickSuffix": "",
+         "colors": [
+          {
+           "id": "0",
+           "type": "min",
+           "hex": "#00C9FF",
+           "name": "laser",
+           "value": 0
+          },
+          {
+           "id": "1",
+           "type": "max",
+           "hex": "#9394FF",
+           "name": "comet",
+           "value": 100
+          }
+         ],
+         "decimalPlaces": {
+          "isEnforced": true,
+          "digits": 2
+         },
+         "note": "",
+         "showNoteWhenEmpty": false
+        }
+       }
+      },
+      {
+       "type": "view",
+       "id": "06f94cb892a7d000",
+       "attributes": {
+        "name": "System Uptime",
+        "properties": {
+         "shape": "chronograf-v2",
+         "type": "single-stat",
+         "queries": [
+          {
+           "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart)\n  |> filter(fn: (r) => r._measurement == \"system\")\n  |> filter(fn: (r) => r._field == \"uptime\")\n  |> filter(fn: (r) => r[\"host\"] == v.pi1)\n   |> last()\n   |> map(fn: (r) => ({r with _value: r._value / 86400}))\n  |> yield(name: \"last\")",
+           "editMode": "advanced",
+           "name": "",
+           "builderConfig": {
+            "buckets": [],
+            "tags": [
+             {
+              "key": "_measurement",
+              "values": [],
+              "aggregateFunctionType": "filter"
+             }
+            ],
+            "functions": [
+             {
+              "name": "mean"
+             }
+            ],
+            "aggregateWindow": {
+             "period": "auto",
+             "fillValues": false
+            }
+           }
+          }
+         ],
+         "prefix": "",
+         "tickPrefix": "",
+         "suffix": " days",
+         "tickSuffix": "",
+         "colors": [
+          {
+           "id": "base",
+           "type": "text",
+           "hex": "#00C9FF",
+           "name": "laser",
+           "value": 0
+          }
+         ],
+         "decimalPlaces": {
+          "isEnforced": false,
+          "digits": 2
+         },
+         "note": "",
+         "showNoteWhenEmpty": false
+        }
+       }
+      },
+      {
+       "type": "view",
+       "id": "06f94cb89327d000",
+       "attributes": {
+        "name": "System Load",
+        "properties": {
+         "shape": "chronograf-v2",
+         "queries": [
+          {
+           "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart)\n  |> filter(fn: (r) => r._measurement == \"system\")\n  |> filter(fn: (r) => r._field == \"load1\" or r._field == \"load5\" or r._field == \"load15\")\n  |> filter(fn: (r) => r[\"host\"] == v.pi1)\n  |> aggregateWindow(every: v.windowPeriod, fn: mean, createEmpty: false)\n  |> yield(name: \"mean\")",
+           "editMode": "advanced",
+           "name": "",
+           "builderConfig": {
+            "buckets": [],
+            "tags": [
+             {
+              "key": "_measurement",
+              "values": [],
+              "aggregateFunctionType": "filter"
+             }
+            ],
+            "functions": [
+             {
+              "name": "mean"
+             }
+            ],
+            "aggregateWindow": {
+             "period": "auto",
+             "fillValues": false
+            }
+           }
+          }
+         ],
+         "axes": {
+          "x": {
+           "bounds": [
+            "",
+            ""
+           ],
+           "label": "",
+           "prefix": "",
+           "suffix": "",
+           "base": "10",
+           "scale": "linear"
+          },
+          "y": {
+           "bounds": [
+            "",
+            ""
+           ],
+           "label": "Load",
+           "prefix": "",
+           "suffix": "",
+           "base": "10",
+           "scale": "linear"
+          },
+          "y2": {
+           "bounds": [
+            "",
+            ""
+           ],
+           "label": "",
+           "prefix": "",
+           "suffix": "",
+           "base": "10",
+           "scale": "linear"
+          }
+         },
+         "type": "xy",
+         "legend": {},
+         "geom": "line",
+         "colors": [],
+         "note": "",
+         "showNoteWhenEmpty": false,
+         "xColumn": "_time",
+         "generateXAxisTicks": null,
+         "xTotalTicks": 0,
+         "xTickStart": 0,
+         "xTickStep": 0,
+         "yColumn": "_value",
+         "generateYAxisTicks": null,
+         "yTotalTicks": 0,
+         "yTickStart": 0,
+         "yTickStep": 0,
+         "shadeBelow": false,
+         "position": "",
+         "timeFormat": "",
+         "hoverDimension": "",
+         "legendColorizeRows": false,
+         "legendOpacity": 0,
+         "legendOrientationThreshold": 0
+        }
+       }
+      },
+      {
+       "type": "view",
+       "id": "06f94cb893a7d000",
+       "attributes": {
+        "name": "CPU Usage",
+        "properties": {
+         "shape": "chronograf-v2",
+         "queries": [
+          {
+           "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart)\n  |> filter(fn: (r) => r._measurement == \"cpu\")\n  |> filter(fn: (r) => r._field == \"usage_user\" or r._field == \"usage_system\" or r._field == \"usage_idle\")\n  |> filter(fn: (r) => r.cpu == \"cpu-total\")\n  |> filter(fn: (r) => r[\"host\"] == v.pi1)\n  |> aggregateWindow(every: v.windowPeriod, fn: mean, createEmpty: false)\n  |> yield(name: \"mean\")",
+           "editMode": "advanced",
+           "name": "",
+           "builderConfig": {
+            "buckets": [],
+            "tags": [
+             {
+              "key": "_measurement",
+              "values": [],
+              "aggregateFunctionType": "filter"
+             }
+            ],
+            "functions": [
+             {
+              "name": "mean"
+             }
+            ],
+            "aggregateWindow": {
+             "period": "auto",
+             "fillValues": false
+            }
+           }
+          }
+         ],
+         "axes": {
+          "x": {
+           "bounds": [
+            "",
+            ""
+           ],
+           "label": "",
+           "prefix": "",
+           "suffix": "",
+           "base": "10",
+           "scale": "linear"
+          },
+          "y": {
+           "bounds": [
+            "",
+            ""
+           ],
+           "label": "",
+           "prefix": "",
+           "suffix": "%",
+           "base": "10",
+           "scale": "linear"
+          },
+          "y2": {
+           "bounds": [
+            "",
+            ""
+           ],
+           "label": "",
+           "prefix": "",
+           "suffix": "",
+           "base": "10",
+           "scale": "linear"
+          }
+         },
+         "type": "xy",
+         "legend": {},
+         "geom": "line",
+         "colors": [],
+         "note": "",
+         "showNoteWhenEmpty": false,
+         "xColumn": "_time",
+         "generateXAxisTicks": null,
+         "xTotalTicks": 0,
+         "xTickStart": 0,
+         "xTickStep": 0,
+         "yColumn": "_value",
+         "generateYAxisTicks": null,
+         "yTotalTicks": 0,
+         "yTickStart": 0,
+         "yTickStep": 0,
+         "shadeBelow": true,
+         "position": "overlaid",
+         "timeFormat": "",
+         "hoverDimension": "",
+         "legendColorizeRows": false,
+         "legendOpacity": 0,
+         "legendOrientationThreshold": 0
+        }
+       }
+      },
+      {
+       "type": "view",
+       "id": "06f94cb89427d000",
+       "attributes": {
+        "name": "Disk IO",
+        "properties": {
+         "shape": "chronograf-v2",
+         "queries": [
+          {
+           "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart)\n  |> filter(fn: (r) => r._measurement == \"diskio\")\n  |> filter(fn: (r) => r._field == \"read_bytes\" or r._field == \"write_bytes\")\n  |> filter(fn: (r) => r[\"host\"] == v.pi1)\n  |> aggregateWindow(every: v.windowPeriod, fn: last, createEmpty: false)\n  |> derivative(unit: 1s, nonNegative: false)\n  |> yield(name: \"derivative\")",
+           "editMode": "advanced",
+           "name": "",
+           "builderConfig": {
+            "buckets": [],
+            "tags": [
+             {
+              "key": "_measurement",
+              "values": [],
+              "aggregateFunctionType": "filter"
+             }
+            ],
+            "functions": [
+             {
+              "name": "mean"
+             }
+            ],
+            "aggregateWindow": {
+             "period": "auto",
+             "fillValues": false
+            }
+           }
+          }
+         ],
+         "axes": {
+          "x": {
+           "bounds": [
+            "",
+            ""
+           ],
+           "label": "",
+           "prefix": "",
+           "suffix": "",
+           "base": "10",
+           "scale": "linear"
+          },
+          "y": {
+           "bounds": [
+            "",
+            ""
+           ],
+           "label": "Bytes",
+           "prefix": "",
+           "suffix": "",
+           "base": "2",
+           "scale": "linear"
+          },
+          "y2": {
+           "bounds": [
+            "",
+            ""
+           ],
+           "label": "",
+           "prefix": "",
+           "suffix": "",
+           "base": "10",
+           "scale": "linear"
+          }
+         },
+         "type": "xy",
+         "legend": {},
+         "geom": "line",
+         "colors": [],
+         "note": "",
+         "showNoteWhenEmpty": false,
+         "xColumn": "_time",
+         "generateXAxisTicks": null,
+         "xTotalTicks": 0,
+         "xTickStart": 0,
+         "xTickStep": 0,
+         "yColumn": "_value",
+         "generateYAxisTicks": null,
+         "yTotalTicks": 0,
+         "yTickStart": 0,
+         "yTickStep": 0,
+         "shadeBelow": false,
+         "position": "",
+         "timeFormat": "",
+         "hoverDimension": "",
+         "legendColorizeRows": false,
+         "legendOpacity": 0,
+         "legendOrientationThreshold": 0
+        }
+       }
+      },
+      {
+       "type": "view",
+       "id": "06f94cb89527d000",
+       "attributes": {
+        "name": "Network",
+        "properties": {
+         "shape": "chronograf-v2",
+         "queries": [
+          {
+           "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart)\n  |> filter(fn: (r) => r._measurement == \"net\")\n  |> filter(fn: (r) => r._field == \"bytes_recv\" or r._field == \"bytes_sent\")\n  |> filter(fn: (r) => r[\"host\"] == v.pi1)\n  |> aggregateWindow(every: v.windowPeriod, fn: last, createEmpty: false)\n  |> derivative(unit: 1s, nonNegative: false)\n  |> yield(name: \"derivative\")",
+           "editMode": "advanced",
+           "name": "",
+           "builderConfig": {
+            "buckets": [],
+            "tags": [
+             {
+              "key": "_measurement",
+              "values": [],
+              "aggregateFunctionType": "filter"
+             }
+            ],
+            "functions": [
+             {
+              "name": "mean"
+             }
+            ],
+            "aggregateWindow": {
+             "period": "auto",
+             "fillValues": false
+            }
+           }
+          }
+         ],
+         "axes": {
+          "x": {
+           "bounds": [
+            "",
+            ""
+           ],
+           "label": "",
+           "prefix": "",
+           "suffix": "",
+           "base": "10",
+           "scale": "linear"
+          },
+          "y": {
+           "bounds": [
+            "",
+            ""
+           ],
+           "label": "Bytes",
+           "prefix": "",
+           "suffix": "",
+           "base": "2",
+           "scale": "linear"
+          },
+          "y2": {
+           "bounds": [
+            "",
+            ""
+           ],
+           "label": "",
+           "prefix": "",
+           "suffix": "",
+           "base": "10",
+           "scale": "linear"
+          }
+         },
+         "type": "xy",
+         "legend": {},
+         "geom": "line",
+         "colors": [],
+         "note": "",
+         "showNoteWhenEmpty": false,
+         "xColumn": "_time",
+         "generateXAxisTicks": null,
+         "xTotalTicks": 0,
+         "xTickStart": 0,
+         "xTickStep": 0,
+         "yColumn": "_value",
+         "generateYAxisTicks": null,
+         "yTotalTicks": 0,
+         "yTickStart": 0,
+         "yTickStep": 0,
+         "shadeBelow": false,
+         "position": "",
+         "timeFormat": "",
+         "hoverDimension": "",
+         "legendColorizeRows": false,
+         "legendOpacity": 0,
+         "legendOrientationThreshold": 0
+        }
+       }
+      },
+      {
+       "type": "view",
+       "id": "06f94cb89667d000",
+       "attributes": {
+        "name": "Memory Usage",
+        "properties": {
+         "shape": "chronograf-v2",
+         "queries": [
+          {
+           "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart)\n  |> filter(fn: (r) => r._measurement == \"mem\")\n  |> filter(fn: (r) => r._field == \"used_percent\")\n  |> filter(fn: (r) => r[\"host\"] == v.pi1)\n  |> aggregateWindow(every: v.windowPeriod, fn: mean, createEmpty: false)\n  |> yield(name: \"mean\")",
+           "editMode": "advanced",
+           "name": "",
+           "builderConfig": {
+            "buckets": [],
+            "tags": [
+             {
+              "key": "_measurement",
+              "values": [],
+              "aggregateFunctionType": "filter"
+             }
+            ],
+            "functions": [
+             {
+              "name": "mean"
+             }
+            ],
+            "aggregateWindow": {
+             "period": "auto",
+             "fillValues": false
+            }
+           }
+          }
+         ],
+         "axes": {
+          "x": {
+           "bounds": [
+            "",
+            ""
+           ],
+           "label": "",
+           "prefix": "",
+           "suffix": "",
+           "base": "10",
+           "scale": "linear"
+          },
+          "y": {
+           "bounds": [
+            "",
+            ""
+           ],
+           "label": "",
+           "prefix": "",
+           "suffix": "%",
+           "base": "10",
+           "scale": "linear"
+          },
+          "y2": {
+           "bounds": [
+            "",
+            ""
+           ],
+           "label": "",
+           "prefix": "",
+           "suffix": "",
+           "base": "10",
+           "scale": "linear"
+          }
+         },
+         "type": "line-plus-single-stat",
+         "legend": {},
+         "colors": [
+          {
+           "id": "base",
+           "type": "text",
+           "hex": "#00C9FF",
+           "name": "laser",
+           "value": 0
+          },
+          {
+           "id": "c2f922df-60a1-4471-91fc-c16427e7fcfb",
+           "type": "scale",
+           "hex": "#8F8AF4",
+           "name": "Do Androids Dream of Electric Sheep?",
+           "value": 0
+          },
+          {
+           "id": "330f7fee-d44e-4a15-b2d6-2330178ec203",
+           "type": "scale",
+           "hex": "#A51414",
+           "name": "Do Androids Dream of Electric Sheep?",
+           "value": 0
+          },
+          {
+           "id": "e3c73eb3-665a-414b-afdd-1686c9b962d9",
+           "type": "scale",
+           "hex": "#F4CF31",
+           "name": "Do Androids Dream of Electric Sheep?",
+           "value": 0
+          }
+         ],
+         "prefix": "",
+         "suffix": "%",
+         "decimalPlaces": {
+          "isEnforced": true,
+          "digits": 1
+         },
+         "note": "",
+         "showNoteWhenEmpty": false,
+         "xColumn": "_time",
+         "generateXAxisTicks": null,
+         "xTotalTicks": 0,
+         "xTickStart": 0,
+         "xTickStep": 0,
+         "yColumn": "_value",
+         "generateYAxisTicks": null,
+         "yTotalTicks": 0,
+         "yTickStart": 0,
+         "yTickStep": 0,
+         "shadeBelow": false,
+         "position": "",
+         "timeFormat": "",
+         "hoverDimension": "",
+         "legendColorizeRows": false,
+         "legendOpacity": 0,
+         "legendOrientationThreshold": 0
+        }
+       }
+      },
+      {
+       "type": "view",
+       "id": "06f94cb896e7d000",
+       "attributes": {
+        "name": "System Load",
+        "properties": {
+         "shape": "chronograf-v2",
+         "type": "single-stat",
+         "queries": [
+          {
+           "text": "from(bucket: \"bantam\")\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r[\"_measurement\"] == \"system\")\n  |> filter(fn: (r) => r[\"_field\"] == \"load1\")\n  |> filter(fn: (r) => r[\"host\"] == v.pi1)\n  |> aggregateWindow(every: v.windowPeriod, fn: mean, createEmpty: false)\n  |> yield(name: \"mean\")",
+           "editMode": "advanced",
+           "name": "",
+           "builderConfig": {
+            "buckets": [],
+            "tags": [
+             {
+              "key": "_measurement",
+              "values": [],
+              "aggregateFunctionType": "filter"
+             }
+            ],
+            "functions": [
+             {
+              "name": "mean"
+             }
+            ],
+            "aggregateWindow": {
+             "period": "auto",
+             "fillValues": false
+            }
+           }
+          }
+         ],
+         "prefix": "",
+         "tickPrefix": "",
+         "suffix": "",
+         "tickSuffix": "",
+         "colors": [
+          {
+           "id": "base",
+           "type": "text",
+           "hex": "#00C9FF",
+           "name": "laser",
+           "value": 0
+          }
+         ],
+         "decimalPlaces": {
+          "isEnforced": true,
+          "digits": 2
+         },
+         "note": "",
+         "showNoteWhenEmpty": false
+        }
+       }
+      },
+      {
+       "type": "view",
+       "id": "06f94cb89767d000",
+       "attributes": {
+        "name": "Processes",
+        "properties": {
+         "shape": "chronograf-v2",
+         "queries": [
+          {
+           "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart)\n  |> filter(fn: (r) => r._measurement == \"processes\")\n  |> filter(fn: (r) => r._field == \"running\" or r._field == \"blocked\" or r._field == \"idle\" or r._field == \"unknown\")\n  |> filter(fn: (r) => r[\"host\"] == v.pi1)\n  |> aggregateWindow(every: v.windowPeriod, fn: max)\n  |> yield(name: \"max\")",
+           "editMode": "advanced",
+           "name": "",
+           "builderConfig": {
+            "buckets": [],
+            "tags": [
+             {
+              "key": "_measurement",
+              "values": [],
+              "aggregateFunctionType": "filter"
+             }
+            ],
+            "functions": [
+             {
+              "name": "mean"
+             }
+            ],
+            "aggregateWindow": {
+             "period": "auto",
+             "fillValues": false
+            }
+           }
+          }
+         ],
+         "axes": {
+          "x": {
+           "bounds": [
+            "",
+            ""
+           ],
+           "label": "",
+           "prefix": "",
+           "suffix": "",
+           "base": "10",
+           "scale": "linear"
+          },
+          "y": {
+           "bounds": [
+            "",
+            ""
+           ],
+           "label": "",
+           "prefix": "",
+           "suffix": "",
+           "base": "10",
+           "scale": "linear"
+          }
+         },
+         "type": "xy",
+         "legend": {},
+         "geom": "line",
+         "colors": [
+          {
+           "id": "3bb3be1e-3d26-4fd4-987d-3fb82c69e5bc",
+           "type": "scale",
+           "hex": "#31C0F6",
+           "name": "Nineteen Eighty Four",
+           "value": 0
+          },
+          {
+           "id": "5d2b129b-8c40-481c-9009-cf6b79ddbd9c",
+           "type": "scale",
+           "hex": "#A500A5",
+           "name": "Nineteen Eighty Four",
+           "value": 0
+          },
+          {
+           "id": "9237d6f5-df23-4a73-b2ca-cf44f3165cbd",
+           "type": "scale",
+           "hex": "#FF7E27",
+           "name": "Nineteen Eighty Four",
+           "value": 0
+          }
+         ],
+         "note": "",
+         "showNoteWhenEmpty": false,
+         "xColumn": "_time",
+         "generateXAxisTicks": null,
+         "xTotalTicks": 0,
+         "xTickStart": 0,
+         "xTickStep": 0,
+         "yColumn": "_value",
+         "generateYAxisTicks": null,
+         "yTotalTicks": 0,
+         "yTickStart": 0,
+         "yTickStep": 0,
+         "shadeBelow": false,
+         "position": "overlaid",
+         "timeFormat": "",
+         "hoverDimension": "",
+         "legendColorizeRows": false,
+         "legendOpacity": 0,
+         "legendOrientationThreshold": 0
+        }
+       }
+      },
+      {
+       "type": "view",
+       "id": "06f95073ece7d000",
+       "attributes": {
+        "name": "Temperatures",
+        "properties": {
+         "shape": "chronograf-v2",
+         "queries": [
+          {
+           "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r[\"host\"] == v.pi1)\n  |> filter(fn: (r) => r[\"_measurement\"] == \"cpu_temperature\")\n  |> filter(fn: (r) => r[\"_field\"] == \"value\")\n  |> map(fn: (r) => ({ r with _value: r._value/1000}))\n  |> aggregateWindow(every: v.windowPeriod, fn: last, createEmpty: false)\n  |> yield(name: \"last\")",
+           "editMode": "advanced",
+           "name": "",
+           "builderConfig": {
+            "buckets": [],
+            "tags": [
+             {
+              "key": "_measurement",
+              "values": [],
+              "aggregateFunctionType": "filter"
+             }
+            ],
+            "functions": [
+             {
+              "name": "mean"
+             }
+            ],
+            "aggregateWindow": {
+             "period": "auto",
+             "fillValues": false
+            }
+           }
+          }
+         ],
+         "axes": {
+          "x": {
+           "bounds": [
+            "",
+            ""
+           ],
+           "label": "",
+           "prefix": "",
+           "suffix": "",
+           "base": "10",
+           "scale": "linear"
+          },
+          "y": {
+           "bounds": [
+            "30",
+            "60"
+           ],
+           "label": "",
+           "prefix": "",
+           "suffix": "°C",
+           "base": "10",
+           "scale": "linear"
+          }
+         },
+         "type": "line-plus-single-stat",
+         "legend": {},
+         "colors": [
+          {
+           "id": "base",
+           "type": "text",
+           "hex": "#00C9FF",
+           "name": "laser",
+           "value": 0
+          }
+         ],
+         "prefix": "",
+         "suffix": "°C",
+         "decimalPlaces": {
+          "isEnforced": true,
+          "digits": 0
+         },
+         "note": "",
+         "showNoteWhenEmpty": false,
+         "xColumn": "_time",
+         "generateXAxisTicks": null,
+         "xTotalTicks": 0,
+         "xTickStart": 0,
+         "xTickStep": 0,
+         "yColumn": "_value",
+         "generateYAxisTicks": null,
+         "yTotalTicks": 0,
+         "yTickStart": 0,
+         "yTickStep": 0,
+         "shadeBelow": false,
+         "position": "overlaid",
+         "timeFormat": "",
+         "hoverDimension": "",
+         "legendColorizeRows": false,
+         "legendOpacity": 0,
+         "legendOrientationThreshold": 0
+        }
+       }
+      },
+      {
+       "type": "view",
+       "id": "06f9521d9aa7d000",
+       "attributes": {
+        "name": "Temperatures",
+        "properties": {
+         "shape": "chronograf-v2",
+         "queries": [
+          {
+           "text": "from(bucket: \"bantam\")\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r[\"_measurement\"] == \"cpu_temperature\")\n  |> filter(fn: (r) => r[\"_field\"] == \"value\")\n  |> map(fn: (r) => ({ r with _value: r._value/1000}))\n  |> filter(fn: (r) => r[\"host\"] == v.pi2)\n  |> aggregateWindow(every: v.windowPeriod, fn: last, createEmpty: false)\n  |> yield(name: \"last\")\n",
+           "editMode": "advanced",
+           "name": "",
+           "builderConfig": {
+            "buckets": [],
+            "tags": [
+             {
+              "key": "_measurement",
+              "values": [],
+              "aggregateFunctionType": "filter"
+             }
+            ],
+            "functions": [
+             {
+              "name": "mean"
+             }
+            ],
+            "aggregateWindow": {
+             "period": "auto",
+             "fillValues": false
+            }
+           }
+          }
+         ],
+         "axes": {
+          "x": {
+           "bounds": [
+            "",
+            ""
+           ],
+           "label": "",
+           "prefix": "",
+           "suffix": "",
+           "base": "10",
+           "scale": "linear"
+          },
+          "y": {
+           "bounds": [
+            "30",
+            "60"
+           ],
+           "label": "",
+           "prefix": "",
+           "suffix": "°C",
+           "base": "10",
+           "scale": "linear"
+          }
+         },
+         "type": "line-plus-single-stat",
+         "legend": {},
+         "colors": [
+          {
+           "id": "base",
+           "type": "text",
+           "hex": "#00C9FF",
+           "name": "laser",
+           "value": 0
+          }
+         ],
+         "prefix": "",
+         "suffix": "°C",
+         "decimalPlaces": {
+          "isEnforced": true,
+          "digits": 0
+         },
+         "note": "",
+         "showNoteWhenEmpty": false,
+         "xColumn": "_time",
+         "generateXAxisTicks": null,
+         "xTotalTicks": 0,
+         "xTickStart": 0,
+         "xTickStep": 0,
+         "yColumn": "_value",
+         "generateYAxisTicks": null,
+         "yTotalTicks": 0,
+         "yTickStart": 0,
+         "yTickStep": 0,
+         "shadeBelow": false,
+         "position": "overlaid",
+         "timeFormat": "",
+         "hoverDimension": "",
+         "legendColorizeRows": false,
+         "legendOpacity": 0,
+         "legendOrientationThreshold": 0
+        }
+       }
+      },
+      {
+       "type": "view",
+       "id": "06f9524dbf27d000",
+       "attributes": {
+        "name": "nCPUs",
+        "properties": {
+         "shape": "chronograf-v2",
+         "type": "single-stat",
+         "queries": [
+          {
+           "text": "from(bucket: \"bantam\")\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r[\"_measurement\"] == \"system\")\n  |> filter(fn: (r) => r[\"_field\"] == \"n_cpus\")\n  |> filter(fn: (r) => r[\"host\"] == v.pi2)\n  |> aggregateWindow(every: v.windowPeriod, fn: last, createEmpty: false)\n  |> yield(name: \"last\")",
+           "editMode": "advanced",
+           "name": "",
+           "builderConfig": {
+            "buckets": [],
+            "tags": [
+             {
+              "key": "_measurement",
+              "values": [],
+              "aggregateFunctionType": "filter"
+             }
+            ],
+            "functions": [
+             {
+              "name": "mean"
+             }
+            ],
+            "aggregateWindow": {
+             "period": "auto",
+             "fillValues": false
+            }
+           }
+          }
+         ],
+         "prefix": "",
+         "tickPrefix": "",
+         "suffix": " cpus",
+         "tickSuffix": "",
+         "colors": [
+          {
+           "id": "base",
+           "type": "text",
+           "hex": "#00C9FF",
+           "name": "laser",
+           "value": 0
+          }
+         ],
+         "decimalPlaces": {
+          "isEnforced": true,
+          "digits": 0
+         },
+         "note": "",
+         "showNoteWhenEmpty": false
+        }
+       }
+      },
+      {
+       "type": "view",
+       "id": "06f952546167d000",
+       "attributes": {
+        "name": "Total Memory",
+        "properties": {
+         "shape": "chronograf-v2",
+         "type": "single-stat",
+         "queries": [
+          {
+           "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart)\n  |> filter(fn: (r) => r._measurement == \"mem\")\n  |> filter(fn: (r) => r._field == \"total\")\n  |> filter(fn: (r) => r[\"host\"] == v.pi2)\n  |> last()\n  |> map(fn: (r) => ({r with _value: float(v: r._value) / 1024.0 / 1024.0 / 1024.0}))\n  |> yield(name: \"last\")\n  ",
+           "editMode": "advanced",
+           "name": "",
+           "builderConfig": {
+            "buckets": [],
+            "tags": [
+             {
+              "key": "_measurement",
+              "values": [],
+              "aggregateFunctionType": "filter"
+             }
+            ],
+            "functions": [
+             {
+              "name": "mean"
+             }
+            ],
+            "aggregateWindow": {
+             "period": "auto",
+             "fillValues": false
+            }
+           }
+          }
+         ],
+         "prefix": "",
+         "tickPrefix": "",
+         "suffix": " GB",
+         "tickSuffix": "",
+         "colors": [
+          {
+           "id": "base",
+           "type": "text",
+           "hex": "#00C9FF",
+           "name": "laser",
+           "value": 0
+          }
+         ],
+         "decimalPlaces": {
+          "isEnforced": true,
+          "digits": 2
+         },
+         "note": "",
+         "showNoteWhenEmpty": false
+        }
+       }
+      },
+      {
+       "type": "view",
+       "id": "06f9540887e7d000",
+       "attributes": {
+        "name": "System Load",
+        "properties": {
+         "shape": "chronograf-v2",
+         "type": "single-stat",
+         "queries": [
+          {
+           "text": "from(bucket: \"bantam\")\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r[\"_measurement\"] == \"system\")\n  |> filter(fn: (r) => r[\"_field\"] == \"load1\")\n  |> filter(fn: (r) => r[\"host\"] == v.pi2)\n  |> aggregateWindow(every: v.windowPeriod, fn: mean, createEmpty: false)\n  |> yield(name: \"mean\")",
+           "editMode": "advanced",
+           "name": "",
+           "builderConfig": {
+            "buckets": [],
+            "tags": [
+             {
+              "key": "_measurement",
+              "values": [],
+              "aggregateFunctionType": "filter"
+             }
+            ],
+            "functions": [
+             {
+              "name": "mean"
+             }
+            ],
+            "aggregateWindow": {
+             "period": "auto",
+             "fillValues": false
+            }
+           }
+          }
+         ],
+         "prefix": "",
+         "tickPrefix": "",
+         "suffix": "",
+         "tickSuffix": "",
+         "colors": [
+          {
+           "id": "base",
+           "type": "text",
+           "hex": "#00C9FF",
+           "name": "laser",
+           "value": 0
+          }
+         ],
+         "decimalPlaces": {
+          "isEnforced": true,
+          "digits": 2
+         },
+         "note": "",
+         "showNoteWhenEmpty": false
+        }
+       }
+      },
+      {
+       "type": "view",
+       "id": "06f954186de7d000",
+       "attributes": {
+        "name": "System Uptime",
+        "properties": {
+         "shape": "chronograf-v2",
+         "type": "single-stat",
+         "queries": [
+          {
+           "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart)\n  |> filter(fn: (r) => r._measurement == \"system\")\n  |> filter(fn: (r) => r._field == \"uptime\")\n  |> filter(fn: (r) => r[\"host\"] == v.pi2)\n   |> last()\n   |> map(fn: (r) => ({r with _value: r._value / 86400}))\n  |> yield(name: \"last\")",
+           "editMode": "advanced",
+           "name": "",
+           "builderConfig": {
+            "buckets": [],
+            "tags": [
+             {
+              "key": "_measurement",
+              "values": [],
+              "aggregateFunctionType": "filter"
+             }
+            ],
+            "functions": [
+             {
+              "name": "mean"
+             }
+            ],
+            "aggregateWindow": {
+             "period": "auto",
+             "fillValues": false
+            }
+           }
+          }
+         ],
+         "prefix": "",
+         "tickPrefix": "",
+         "suffix": " days",
+         "tickSuffix": "",
+         "colors": [
+          {
+           "id": "base",
+           "type": "text",
+           "hex": "#00C9FF",
+           "name": "laser",
+           "value": 0
+          }
+         ],
+         "decimalPlaces": {
+          "isEnforced": false,
+          "digits": 2
+         },
+         "note": "",
+         "showNoteWhenEmpty": false
+        }
+       }
+      },
+      {
+       "type": "view",
+       "id": "06f9542c8be7d000",
+       "attributes": {
+        "name": "Memory Usage",
+        "properties": {
+         "shape": "chronograf-v2",
+         "queries": [
+          {
+           "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart)\n  |> filter(fn: (r) => r._measurement == \"mem\")\n  |> filter(fn: (r) => r._field == \"used_percent\")\n  |> filter(fn: (r) => r[\"host\"] == v.pi2)\n  |> aggregateWindow(every: v.windowPeriod, fn: mean, createEmpty: false)\n  |> yield(name: \"mean\")",
+           "editMode": "advanced",
+           "name": "",
+           "builderConfig": {
+            "buckets": [],
+            "tags": [
+             {
+              "key": "_measurement",
+              "values": [],
+              "aggregateFunctionType": "filter"
+             }
+            ],
+            "functions": [
+             {
+              "name": "mean"
+             }
+            ],
+            "aggregateWindow": {
+             "period": "auto",
+             "fillValues": false
+            }
+           }
+          }
+         ],
+         "axes": {
+          "x": {
+           "bounds": [
+            "",
+            ""
+           ],
+           "label": "",
+           "prefix": "",
+           "suffix": "",
+           "base": "10",
+           "scale": "linear"
+          },
+          "y": {
+           "bounds": [
+            "",
+            ""
+           ],
+           "label": "",
+           "prefix": "",
+           "suffix": "%",
+           "base": "10",
+           "scale": "linear"
+          },
+          "y2": {
+           "bounds": [
+            "",
+            ""
+           ],
+           "label": "",
+           "prefix": "",
+           "suffix": "",
+           "base": "10",
+           "scale": "linear"
+          }
+         },
+         "type": "line-plus-single-stat",
+         "legend": {},
+         "colors": [
+          {
+           "id": "base",
+           "type": "text",
+           "hex": "#00C9FF",
+           "name": "laser",
+           "value": 0
+          },
+          {
+           "id": "c2f922df-60a1-4471-91fc-c16427e7fcfb",
+           "type": "scale",
+           "hex": "#8F8AF4",
+           "name": "Do Androids Dream of Electric Sheep?",
+           "value": 0
+          },
+          {
+           "id": "330f7fee-d44e-4a15-b2d6-2330178ec203",
+           "type": "scale",
+           "hex": "#A51414",
+           "name": "Do Androids Dream of Electric Sheep?",
+           "value": 0
+          },
+          {
+           "id": "e3c73eb3-665a-414b-afdd-1686c9b962d9",
+           "type": "scale",
+           "hex": "#F4CF31",
+           "name": "Do Androids Dream of Electric Sheep?",
+           "value": 0
+          }
+         ],
+         "prefix": "",
+         "suffix": "%",
+         "decimalPlaces": {
+          "isEnforced": true,
+          "digits": 1
+         },
+         "note": "",
+         "showNoteWhenEmpty": false,
+         "xColumn": "_time",
+         "generateXAxisTicks": null,
+         "xTotalTicks": 0,
+         "xTickStart": 0,
+         "xTickStep": 0,
+         "yColumn": "_value",
+         "generateYAxisTicks": null,
+         "yTotalTicks": 0,
+         "yTickStart": 0,
+         "yTickStep": 0,
+         "shadeBelow": false,
+         "position": "",
+         "timeFormat": "",
+         "hoverDimension": "",
+         "legendColorizeRows": false,
+         "legendOpacity": 0,
+         "legendOrientationThreshold": 0
+        }
+       }
+      },
+      {
+       "type": "view",
+       "id": "06f9564f4fe7d000",
+       "attributes": {
+        "name": "Disk Usage",
+        "properties": {
+         "shape": "chronograf-v2",
+         "type": "gauge",
+         "queries": [
+          {
+           "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart)\n  |> filter(fn: (r) => r._measurement == \"disk\")\n  |> filter(fn: (r) => r._field == \"used_percent\")\n  |> filter(fn: (r) => r[\"host\"] == v.pi2)\n  |> filter(fn: (r) => r[\"device\"] == \"mmcblk0p2\")\n  |> aggregateWindow(every: v.windowPeriod, fn: mean, createEmpty: false)\n  |> yield(name: \"mean\")",
+           "editMode": "advanced",
+           "name": "",
+           "builderConfig": {
+            "buckets": [],
+            "tags": [
+             {
+              "key": "_measurement",
+              "values": [],
+              "aggregateFunctionType": "filter"
+             }
+            ],
+            "functions": [
+             {
+              "name": "mean"
+             }
+            ],
+            "aggregateWindow": {
+             "period": "auto",
+             "fillValues": false
+            }
+           }
+          }
+         ],
+         "prefix": "",
+         "tickPrefix": "",
+         "suffix": "%",
+         "tickSuffix": "",
+         "colors": [
+          {
+           "id": "0",
+           "type": "min",
+           "hex": "#00C9FF",
+           "name": "laser",
+           "value": 0
+          },
+          {
+           "id": "1",
+           "type": "max",
+           "hex": "#9394FF",
+           "name": "comet",
+           "value": 100
+          }
+         ],
+         "decimalPlaces": {
+          "isEnforced": true,
+          "digits": 2
+         },
+         "note": "",
+         "showNoteWhenEmpty": false
+        }
+       }
+      },
+      {
+       "type": "view",
+       "id": "06f956d96827d000",
+       "attributes": {
+        "name": "CPU Usage",
+        "properties": {
+         "shape": "chronograf-v2",
+         "queries": [
+          {
+           "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart)\n  |> filter(fn: (r) => r._measurement == \"cpu\")\n  |> filter(fn: (r) => r._field == \"usage_user\" or r._field == \"usage_system\" or r._field == \"usage_idle\")\n  |> filter(fn: (r) => r.cpu == \"cpu-total\")\n  |> filter(fn: (r) => r[\"host\"] == v.pi2)\n  |> aggregateWindow(every: v.windowPeriod, fn: mean, createEmpty: false)\n  |> yield(name: \"mean\")",
+           "editMode": "advanced",
+           "name": "",
+           "builderConfig": {
+            "buckets": [],
+            "tags": [
+             {
+              "key": "_measurement",
+              "values": [],
+              "aggregateFunctionType": "filter"
+             }
+            ],
+            "functions": [
+             {
+              "name": "mean"
+             }
+            ],
+            "aggregateWindow": {
+             "period": "auto",
+             "fillValues": false
+            }
+           }
+          }
+         ],
+         "axes": {
+          "x": {
+           "bounds": [
+            "",
+            ""
+           ],
+           "label": "",
+           "prefix": "",
+           "suffix": "",
+           "base": "10",
+           "scale": "linear"
+          },
+          "y": {
+           "bounds": [
+            "",
+            ""
+           ],
+           "label": "",
+           "prefix": "",
+           "suffix": "%",
+           "base": "10",
+           "scale": "linear"
+          },
+          "y2": {
+           "bounds": [
+            "",
+            ""
+           ],
+           "label": "",
+           "prefix": "",
+           "suffix": "",
+           "base": "10",
+           "scale": "linear"
+          }
+         },
+         "type": "xy",
+         "legend": {},
+         "geom": "line",
+         "colors": [],
+         "note": "",
+         "showNoteWhenEmpty": false,
+         "xColumn": "_time",
+         "generateXAxisTicks": null,
+         "xTotalTicks": 0,
+         "xTickStart": 0,
+         "xTickStep": 0,
+         "yColumn": "_value",
+         "generateYAxisTicks": null,
+         "yTotalTicks": 0,
+         "yTickStart": 0,
+         "yTickStep": 0,
+         "shadeBelow": true,
+         "position": "overlaid",
+         "timeFormat": "",
+         "hoverDimension": "",
+         "legendColorizeRows": false,
+         "legendOpacity": 0,
+         "legendOrientationThreshold": 0
+        }
+       }
+      },
+      {
+       "type": "view",
+       "id": "06f9571e0b27d000",
+       "attributes": {
+        "name": "Temperatures",
+        "properties": {
+         "shape": "chronograf-v2",
+         "queries": [
+          {
+           "text": "from(bucket: \"bantam\")\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r[\"_measurement\"] == \"cpu_temperature\")\n  |> filter(fn: (r) => r[\"_field\"] == \"value\")\n  |> map(fn: (r) => ({ r with _value: r._value/1000}))\n  |> filter(fn: (r) => r[\"host\"] == v.pi3)\n  |> aggregateWindow(every: v.windowPeriod, fn: last, createEmpty: false)\n  |> yield(name: \"last\")\n",
+           "editMode": "advanced",
+           "name": "",
+           "builderConfig": {
+            "buckets": [],
+            "tags": [
+             {
+              "key": "_measurement",
+              "values": [],
+              "aggregateFunctionType": "filter"
+             }
+            ],
+            "functions": [
+             {
+              "name": "mean"
+             }
+            ],
+            "aggregateWindow": {
+             "period": "auto",
+             "fillValues": false
+            }
+           }
+          }
+         ],
+         "axes": {
+          "x": {
+           "bounds": [
+            "",
+            ""
+           ],
+           "label": "",
+           "prefix": "",
+           "suffix": "",
+           "base": "10",
+           "scale": "linear"
+          },
+          "y": {
+           "bounds": [
+            "30",
+            "60"
+           ],
+           "label": "",
+           "prefix": "",
+           "suffix": "°C",
+           "base": "10",
+           "scale": "linear"
+          }
+         },
+         "type": "line-plus-single-stat",
+         "legend": {},
+         "colors": [
+          {
+           "id": "base",
+           "type": "text",
+           "hex": "#00C9FF",
+           "name": "laser",
+           "value": 0
+          }
+         ],
+         "prefix": "",
+         "suffix": "°C",
+         "decimalPlaces": {
+          "isEnforced": true,
+          "digits": 0
+         },
+         "note": "",
+         "showNoteWhenEmpty": false,
+         "xColumn": "_time",
+         "generateXAxisTicks": null,
+         "xTotalTicks": 0,
+         "xTickStart": 0,
+         "xTickStep": 0,
+         "yColumn": "_value",
+         "generateYAxisTicks": null,
+         "yTotalTicks": 0,
+         "yTickStart": 0,
+         "yTickStep": 0,
+         "shadeBelow": false,
+         "position": "overlaid",
+         "timeFormat": "",
+         "hoverDimension": "",
+         "legendColorizeRows": false,
+         "legendOpacity": 0,
+         "legendOrientationThreshold": 0
+        }
+       }
+      },
+      {
+       "type": "view",
+       "id": "06f95bc2b967d000",
+       "attributes": {
+        "name": "nCPUs",
+        "properties": {
+         "shape": "chronograf-v2",
+         "type": "single-stat",
+         "queries": [
+          {
+           "text": "from(bucket: \"bantam\")\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r[\"_measurement\"] == \"system\")\n  |> filter(fn: (r) => r[\"_field\"] == \"n_cpus\")\n  |> filter(fn: (r) => r[\"host\"] == v.pi3)\n  |> aggregateWindow(every: v.windowPeriod, fn: last, createEmpty: false)\n  |> yield(name: \"last\")",
+           "editMode": "advanced",
+           "name": "",
+           "builderConfig": {
+            "buckets": [],
+            "tags": [
+             {
+              "key": "_measurement",
+              "values": [],
+              "aggregateFunctionType": "filter"
+             }
+            ],
+            "functions": [
+             {
+              "name": "mean"
+             }
+            ],
+            "aggregateWindow": {
+             "period": "auto",
+             "fillValues": false
+            }
+           }
+          }
+         ],
+         "prefix": "",
+         "tickPrefix": "",
+         "suffix": " cpus",
+         "tickSuffix": "",
+         "colors": [
+          {
+           "id": "base",
+           "type": "text",
+           "hex": "#00C9FF",
+           "name": "laser",
+           "value": 0
+          }
+         ],
+         "decimalPlaces": {
+          "isEnforced": true,
+          "digits": 0
+         },
+         "note": "",
+         "showNoteWhenEmpty": false
+        }
+       }
+      },
+      {
+       "type": "view",
+       "id": "06f95bcb9d27d000",
+       "attributes": {
+        "name": "Total Memory",
+        "properties": {
+         "shape": "chronograf-v2",
+         "type": "single-stat",
+         "queries": [
+          {
+           "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart)\n  |> filter(fn: (r) => r._measurement == \"mem\")\n  |> filter(fn: (r) => r._field == \"total\")\n  |> filter(fn: (r) => r[\"host\"] == v.pi3)\n  |> last()\n  |> map(fn: (r) => ({r with _value: float(v: r._value) / 1024.0 / 1024.0 / 1024.0}))\n  |> yield(name: \"last\")\n  ",
+           "editMode": "advanced",
+           "name": "",
+           "builderConfig": {
+            "buckets": [],
+            "tags": [
+             {
+              "key": "_measurement",
+              "values": [],
+              "aggregateFunctionType": "filter"
+             }
+            ],
+            "functions": [
+             {
+              "name": "mean"
+             }
+            ],
+            "aggregateWindow": {
+             "period": "auto",
+             "fillValues": false
+            }
+           }
+          }
+         ],
+         "prefix": "",
+         "tickPrefix": "",
+         "suffix": " GB",
+         "tickSuffix": "",
+         "colors": [
+          {
+           "id": "base",
+           "type": "text",
+           "hex": "#00C9FF",
+           "name": "laser",
+           "value": 0
+          }
+         ],
+         "decimalPlaces": {
+          "isEnforced": true,
+          "digits": 2
+         },
+         "note": "",
+         "showNoteWhenEmpty": false
+        }
+       }
+      },
+      {
+       "type": "view",
+       "id": "06f95c1ee527d000",
+       "attributes": {
+        "name": "System Load",
+        "properties": {
+         "shape": "chronograf-v2",
+         "type": "single-stat",
+         "queries": [
+          {
+           "text": "from(bucket: \"bantam\")\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r[\"_measurement\"] == \"system\")\n  |> filter(fn: (r) => r[\"_field\"] == \"load1\")\n  |> filter(fn: (r) => r[\"host\"] == v.pi3)\n  |> aggregateWindow(every: v.windowPeriod, fn: mean, createEmpty: false)\n  |> yield(name: \"mean\")",
+           "editMode": "advanced",
+           "name": "",
+           "builderConfig": {
+            "buckets": [],
+            "tags": [
+             {
+              "key": "_measurement",
+              "values": [],
+              "aggregateFunctionType": "filter"
+             }
+            ],
+            "functions": [
+             {
+              "name": "mean"
+             }
+            ],
+            "aggregateWindow": {
+             "period": "auto",
+             "fillValues": false
+            }
+           }
+          }
+         ],
+         "prefix": "",
+         "tickPrefix": "",
+         "suffix": "",
+         "tickSuffix": "",
+         "colors": [
+          {
+           "id": "base",
+           "type": "text",
+           "hex": "#00C9FF",
+           "name": "laser",
+           "value": 0
+          }
+         ],
+         "decimalPlaces": {
+          "isEnforced": true,
+          "digits": 2
+         },
+         "note": "",
+         "showNoteWhenEmpty": false
+        }
+       }
+      },
+      {
+       "type": "view",
+       "id": "06f95c2a3fa7d000",
+       "attributes": {
+        "name": "System Uptime",
+        "properties": {
+         "shape": "chronograf-v2",
+         "type": "single-stat",
+         "queries": [
+          {
+           "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart)\n  |> filter(fn: (r) => r._measurement == \"system\")\n  |> filter(fn: (r) => r._field == \"uptime\")\n  |> filter(fn: (r) => r[\"host\"] == v.pi3)\n   |> last()\n   |> map(fn: (r) => ({r with _value: r._value / 86400}))\n  |> yield(name: \"last\")",
+           "editMode": "advanced",
+           "name": "",
+           "builderConfig": {
+            "buckets": [],
+            "tags": [
+             {
+              "key": "_measurement",
+              "values": [],
+              "aggregateFunctionType": "filter"
+             }
+            ],
+            "functions": [
+             {
+              "name": "mean"
+             }
+            ],
+            "aggregateWindow": {
+             "period": "auto",
+             "fillValues": false
+            }
+           }
+          }
+         ],
+         "prefix": "",
+         "tickPrefix": "",
+         "suffix": " days",
+         "tickSuffix": "",
+         "colors": [
+          {
+           "id": "base",
+           "type": "text",
+           "hex": "#00C9FF",
+           "name": "laser",
+           "value": 0
+          }
+         ],
+         "decimalPlaces": {
+          "isEnforced": false,
+          "digits": 2
+         },
+         "note": "",
+         "showNoteWhenEmpty": false
+        }
+       }
+      },
+      {
+       "type": "view",
+       "id": "06f95c5a37a7d000",
+       "attributes": {
+        "name": "Memory Usage",
+        "properties": {
+         "shape": "chronograf-v2",
+         "queries": [
+          {
+           "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart)\n  |> filter(fn: (r) => r._measurement == \"mem\")\n  |> filter(fn: (r) => r._field == \"used_percent\")\n  |> filter(fn: (r) => r[\"host\"] == v.pi3)\n  |> aggregateWindow(every: v.windowPeriod, fn: mean, createEmpty: false)\n  |> yield(name: \"mean\")",
+           "editMode": "advanced",
+           "name": "",
+           "builderConfig": {
+            "buckets": [],
+            "tags": [
+             {
+              "key": "_measurement",
+              "values": [],
+              "aggregateFunctionType": "filter"
+             }
+            ],
+            "functions": [
+             {
+              "name": "mean"
+             }
+            ],
+            "aggregateWindow": {
+             "period": "auto",
+             "fillValues": false
+            }
+           }
+          }
+         ],
+         "axes": {
+          "x": {
+           "bounds": [
+            "",
+            ""
+           ],
+           "label": "",
+           "prefix": "",
+           "suffix": "",
+           "base": "10",
+           "scale": "linear"
+          },
+          "y": {
+           "bounds": [
+            "",
+            ""
+           ],
+           "label": "",
+           "prefix": "",
+           "suffix": "%",
+           "base": "10",
+           "scale": "linear"
+          },
+          "y2": {
+           "bounds": [
+            "",
+            ""
+           ],
+           "label": "",
+           "prefix": "",
+           "suffix": "",
+           "base": "10",
+           "scale": "linear"
+          }
+         },
+         "type": "line-plus-single-stat",
+         "legend": {},
+         "colors": [
+          {
+           "id": "base",
+           "type": "text",
+           "hex": "#00C9FF",
+           "name": "laser",
+           "value": 0
+          },
+          {
+           "id": "c2f922df-60a1-4471-91fc-c16427e7fcfb",
+           "type": "scale",
+           "hex": "#8F8AF4",
+           "name": "Do Androids Dream of Electric Sheep?",
+           "value": 0
+          },
+          {
+           "id": "330f7fee-d44e-4a15-b2d6-2330178ec203",
+           "type": "scale",
+           "hex": "#A51414",
+           "name": "Do Androids Dream of Electric Sheep?",
+           "value": 0
+          },
+          {
+           "id": "e3c73eb3-665a-414b-afdd-1686c9b962d9",
+           "type": "scale",
+           "hex": "#F4CF31",
+           "name": "Do Androids Dream of Electric Sheep?",
+           "value": 0
+          }
+         ],
+         "prefix": "",
+         "suffix": "%",
+         "decimalPlaces": {
+          "isEnforced": true,
+          "digits": 1
+         },
+         "note": "",
+         "showNoteWhenEmpty": false,
+         "xColumn": "_time",
+         "generateXAxisTicks": null,
+         "xTotalTicks": 0,
+         "xTickStart": 0,
+         "xTickStep": 0,
+         "yColumn": "_value",
+         "generateYAxisTicks": null,
+         "yTotalTicks": 0,
+         "yTickStart": 0,
+         "yTickStep": 0,
+         "shadeBelow": false,
+         "position": "",
+         "timeFormat": "",
+         "hoverDimension": "",
+         "legendColorizeRows": false,
+         "legendOpacity": 0,
+         "legendOrientationThreshold": 0
+        }
+       }
+      },
+      {
+       "type": "view",
+       "id": "06f95c77ca67d000",
+       "attributes": {
+        "name": "Disk Usage",
+        "properties": {
+         "shape": "chronograf-v2",
+         "type": "gauge",
+         "queries": [
+          {
+           "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart)\n  |> filter(fn: (r) => r._measurement == \"disk\")\n  |> filter(fn: (r) => r._field == \"used_percent\")\n  |> filter(fn: (r) => r[\"host\"] == v.pi3)\n  |> filter(fn: (r) => r[\"device\"] == \"mmcblk0p2\")\n  |> aggregateWindow(every: v.windowPeriod, fn: mean, createEmpty: false)\n  |> yield(name: \"mean\")",
+           "editMode": "advanced",
+           "name": "",
+           "builderConfig": {
+            "buckets": [],
+            "tags": [
+             {
+              "key": "_measurement",
+              "values": [],
+              "aggregateFunctionType": "filter"
+             }
+            ],
+            "functions": [
+             {
+              "name": "mean"
+             }
+            ],
+            "aggregateWindow": {
+             "period": "auto",
+             "fillValues": false
+            }
+           }
+          }
+         ],
+         "prefix": "",
+         "tickPrefix": "",
+         "suffix": "%",
+         "tickSuffix": "",
+         "colors": [
+          {
+           "id": "0",
+           "type": "min",
+           "hex": "#00C9FF",
+           "name": "laser",
+           "value": 0
+          },
+          {
+           "id": "1",
+           "type": "max",
+           "hex": "#9394FF",
+           "name": "comet",
+           "value": 100
+          }
+         ],
+         "decimalPlaces": {
+          "isEnforced": true,
+          "digits": 2
+         },
+         "note": "",
+         "showNoteWhenEmpty": false
+        }
+       }
+      },
+      {
+       "type": "view",
+       "id": "06f95c975a67d000",
+       "attributes": {
+        "name": "CPU Usage",
+        "properties": {
+         "shape": "chronograf-v2",
+         "queries": [
+          {
+           "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart)\n  |> filter(fn: (r) => r._measurement == \"cpu\")\n  |> filter(fn: (r) => r._field == \"usage_user\" or r._field == \"usage_system\" or r._field == \"usage_idle\")\n  |> filter(fn: (r) => r.cpu == \"cpu-total\")\n  |> filter(fn: (r) => r[\"host\"] == v.pi3)\n  |> aggregateWindow(every: v.windowPeriod, fn: mean, createEmpty: false)\n  |> yield(name: \"mean\")",
+           "editMode": "advanced",
+           "name": "",
+           "builderConfig": {
+            "buckets": [],
+            "tags": [
+             {
+              "key": "_measurement",
+              "values": [],
+              "aggregateFunctionType": "filter"
+             }
+            ],
+            "functions": [
+             {
+              "name": "mean"
+             }
+            ],
+            "aggregateWindow": {
+             "period": "auto",
+             "fillValues": false
+            }
+           }
+          }
+         ],
+         "axes": {
+          "x": {
+           "bounds": [
+            "",
+            ""
+           ],
+           "label": "",
+           "prefix": "",
+           "suffix": "",
+           "base": "10",
+           "scale": "linear"
+          },
+          "y": {
+           "bounds": [
+            "",
+            ""
+           ],
+           "label": "",
+           "prefix": "",
+           "suffix": "%",
+           "base": "10",
+           "scale": "linear"
+          },
+          "y2": {
+           "bounds": [
+            "",
+            ""
+           ],
+           "label": "",
+           "prefix": "",
+           "suffix": "",
+           "base": "10",
+           "scale": "linear"
+          }
+         },
+         "type": "xy",
+         "legend": {},
+         "geom": "line",
+         "colors": [],
+         "note": "",
+         "showNoteWhenEmpty": false,
+         "xColumn": "_time",
+         "generateXAxisTicks": null,
+         "xTotalTicks": 0,
+         "xTickStart": 0,
+         "xTickStep": 0,
+         "yColumn": "_value",
+         "generateYAxisTicks": null,
+         "yTotalTicks": 0,
+         "yTickStart": 0,
+         "yTickStep": 0,
+         "shadeBelow": true,
+         "position": "overlaid",
+         "timeFormat": "",
+         "hoverDimension": "",
+         "legendColorizeRows": false,
+         "legendOpacity": 0,
+         "legendOrientationThreshold": 0
+        }
+       }
+      },
+      {
+       "type": "view",
+       "id": "06f95cc66967d000",
+       "attributes": {
+        "name": "Network",
+        "properties": {
+         "shape": "chronograf-v2",
+         "queries": [
+          {
+           "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart)\n  |> filter(fn: (r) => r._measurement == \"net\")\n  |> filter(fn: (r) => r._field == \"bytes_recv\" or r._field == \"bytes_sent\")\n  |> filter(fn: (r) => r[\"host\"] == v.pi2)\n  |> aggregateWindow(every: v.windowPeriod, fn: last, createEmpty: false)\n  |> derivative(unit: 1s, nonNegative: false)\n  |> yield(name: \"derivative\")",
+           "editMode": "advanced",
+           "name": "",
+           "builderConfig": {
+            "buckets": [],
+            "tags": [
+             {
+              "key": "_measurement",
+              "values": [],
+              "aggregateFunctionType": "filter"
+             }
+            ],
+            "functions": [
+             {
+              "name": "mean"
+             }
+            ],
+            "aggregateWindow": {
+             "period": "auto",
+             "fillValues": false
+            }
+           }
+          }
+         ],
+         "axes": {
+          "x": {
+           "bounds": [
+            "",
+            ""
+           ],
+           "label": "",
+           "prefix": "",
+           "suffix": "",
+           "base": "10",
+           "scale": "linear"
+          },
+          "y": {
+           "bounds": [
+            "",
+            ""
+           ],
+           "label": "Bytes",
+           "prefix": "",
+           "suffix": "",
+           "base": "2",
+           "scale": "linear"
+          },
+          "y2": {
+           "bounds": [
+            "",
+            ""
+           ],
+           "label": "",
+           "prefix": "",
+           "suffix": "",
+           "base": "10",
+           "scale": "linear"
+          }
+         },
+         "type": "xy",
+         "legend": {},
+         "geom": "line",
+         "colors": [],
+         "note": "",
+         "showNoteWhenEmpty": false,
+         "xColumn": "_time",
+         "generateXAxisTicks": null,
+         "xTotalTicks": 0,
+         "xTickStart": 0,
+         "xTickStep": 0,
+         "yColumn": "_value",
+         "generateYAxisTicks": null,
+         "yTotalTicks": 0,
+         "yTickStart": 0,
+         "yTickStep": 0,
+         "shadeBelow": false,
+         "position": "",
+         "timeFormat": "",
+         "hoverDimension": "",
+         "legendColorizeRows": false,
+         "legendOpacity": 0,
+         "legendOrientationThreshold": 0
+        }
+       }
+      },
+      {
+       "type": "view",
+       "id": "06f95d0dcba7d000",
+       "attributes": {
+        "name": "Network",
+        "properties": {
+         "shape": "chronograf-v2",
+         "queries": [
+          {
+           "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart)\n  |> filter(fn: (r) => r._measurement == \"net\")\n  |> filter(fn: (r) => r._field == \"bytes_recv\" or r._field == \"bytes_sent\")\n  |> filter(fn: (r) => r[\"host\"] == v.pi3)\n  |> aggregateWindow(every: v.windowPeriod, fn: last, createEmpty: false)\n  |> derivative(unit: 1s, nonNegative: false)\n  |> yield(name: \"derivative\")",
+           "editMode": "advanced",
+           "name": "",
+           "builderConfig": {
+            "buckets": [],
+            "tags": [
+             {
+              "key": "_measurement",
+              "values": [],
+              "aggregateFunctionType": "filter"
+             }
+            ],
+            "functions": [
+             {
+              "name": "mean"
+             }
+            ],
+            "aggregateWindow": {
+             "period": "auto",
+             "fillValues": false
+            }
+           }
+          }
+         ],
+         "axes": {
+          "x": {
+           "bounds": [
+            "",
+            ""
+           ],
+           "label": "",
+           "prefix": "",
+           "suffix": "",
+           "base": "10",
+           "scale": "linear"
+          },
+          "y": {
+           "bounds": [
+            "",
+            ""
+           ],
+           "label": "Bytes",
+           "prefix": "",
+           "suffix": "",
+           "base": "2",
+           "scale": "linear"
+          },
+          "y2": {
+           "bounds": [
+            "",
+            ""
+           ],
+           "label": "",
+           "prefix": "",
+           "suffix": "",
+           "base": "10",
+           "scale": "linear"
+          }
+         },
+         "type": "xy",
+         "legend": {},
+         "geom": "line",
+         "colors": [],
+         "note": "",
+         "showNoteWhenEmpty": false,
+         "xColumn": "_time",
+         "generateXAxisTicks": null,
+         "xTotalTicks": 0,
+         "xTickStart": 0,
+         "xTickStep": 0,
+         "yColumn": "_value",
+         "generateYAxisTicks": null,
+         "yTotalTicks": 0,
+         "yTickStart": 0,
+         "yTickStep": 0,
+         "shadeBelow": false,
+         "position": "",
+         "timeFormat": "",
+         "hoverDimension": "",
+         "legendColorizeRows": false,
+         "legendOpacity": 0,
+         "legendOrientationThreshold": 0
+        }
+       }
+      },
+      {
+       "type": "view",
+       "id": "06f95d74af27d000",
+       "attributes": {
+        "name": "Disk IO",
+        "properties": {
+         "shape": "chronograf-v2",
+         "queries": [
+          {
+           "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart)\n  |> filter(fn: (r) => r._measurement == \"diskio\")\n  |> filter(fn: (r) => r._field == \"read_bytes\" or r._field == \"write_bytes\")\n  |> filter(fn: (r) => r[\"host\"] == v.pi2)\n  |> aggregateWindow(every: v.windowPeriod, fn: last, createEmpty: false)\n  |> derivative(unit: 1s, nonNegative: false)\n  |> yield(name: \"derivative\")",
+           "editMode": "advanced",
+           "name": "",
+           "builderConfig": {
+            "buckets": [],
+            "tags": [
+             {
+              "key": "_measurement",
+              "values": [],
+              "aggregateFunctionType": "filter"
+             }
+            ],
+            "functions": [
+             {
+              "name": "mean"
+             }
+            ],
+            "aggregateWindow": {
+             "period": "auto",
+             "fillValues": false
+            }
+           }
+          }
+         ],
+         "axes": {
+          "x": {
+           "bounds": [
+            "",
+            ""
+           ],
+           "label": "",
+           "prefix": "",
+           "suffix": "",
+           "base": "10",
+           "scale": "linear"
+          },
+          "y": {
+           "bounds": [
+            "",
+            ""
+           ],
+           "label": "Bytes",
+           "prefix": "",
+           "suffix": "",
+           "base": "2",
+           "scale": "linear"
+          },
+          "y2": {
+           "bounds": [
+            "",
+            ""
+           ],
+           "label": "",
+           "prefix": "",
+           "suffix": "",
+           "base": "10",
+           "scale": "linear"
+          }
+         },
+         "type": "xy",
+         "legend": {},
+         "geom": "line",
+         "colors": [],
+         "note": "",
+         "showNoteWhenEmpty": false,
+         "xColumn": "_time",
+         "generateXAxisTicks": null,
+         "xTotalTicks": 0,
+         "xTickStart": 0,
+         "xTickStep": 0,
+         "yColumn": "_value",
+         "generateYAxisTicks": null,
+         "yTotalTicks": 0,
+         "yTickStart": 0,
+         "yTickStep": 0,
+         "shadeBelow": false,
+         "position": "",
+         "timeFormat": "",
+         "hoverDimension": "",
+         "legendColorizeRows": false,
+         "legendOpacity": 0,
+         "legendOrientationThreshold": 0
+        }
+       }
+      },
+      {
+       "type": "view",
+       "id": "06f95da76aa7d000",
+       "attributes": {
+        "name": "Disk IO",
+        "properties": {
+         "shape": "chronograf-v2",
+         "queries": [
+          {
+           "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart)\n  |> filter(fn: (r) => r._measurement == \"diskio\")\n  |> filter(fn: (r) => r._field == \"read_bytes\" or r._field == \"write_bytes\")\n  |> filter(fn: (r) => r[\"host\"] == v.pi3)\n  |> aggregateWindow(every: v.windowPeriod, fn: last, createEmpty: false)\n  |> derivative(unit: 1s, nonNegative: false)\n  |> yield(name: \"derivative\")",
+           "editMode": "advanced",
+           "name": "",
+           "builderConfig": {
+            "buckets": [],
+            "tags": [
+             {
+              "key": "_measurement",
+              "values": [],
+              "aggregateFunctionType": "filter"
+             }
+            ],
+            "functions": [
+             {
+              "name": "mean"
+             }
+            ],
+            "aggregateWindow": {
+             "period": "auto",
+             "fillValues": false
+            }
+           }
+          }
+         ],
+         "axes": {
+          "x": {
+           "bounds": [
+            "",
+            ""
+           ],
+           "label": "",
+           "prefix": "",
+           "suffix": "",
+           "base": "10",
+           "scale": "linear"
+          },
+          "y": {
+           "bounds": [
+            "",
+            ""
+           ],
+           "label": "Bytes",
+           "prefix": "",
+           "suffix": "",
+           "base": "2",
+           "scale": "linear"
+          },
+          "y2": {
+           "bounds": [
+            "",
+            ""
+           ],
+           "label": "",
+           "prefix": "",
+           "suffix": "",
+           "base": "10",
+           "scale": "linear"
+          }
+         },
+         "type": "xy",
+         "legend": {},
+         "geom": "line",
+         "colors": [],
+         "note": "",
+         "showNoteWhenEmpty": false,
+         "xColumn": "_time",
+         "generateXAxisTicks": null,
+         "xTotalTicks": 0,
+         "xTickStart": 0,
+         "xTickStep": 0,
+         "yColumn": "_value",
+         "generateYAxisTicks": null,
+         "yTotalTicks": 0,
+         "yTickStart": 0,
+         "yTickStep": 0,
+         "shadeBelow": false,
+         "position": "",
+         "timeFormat": "",
+         "hoverDimension": "",
+         "legendColorizeRows": false,
+         "legendOpacity": 0,
+         "legendOrientationThreshold": 0
+        }
+       }
+      },
+      {
+       "type": "view",
+       "id": "06f99965c4a7d000",
+       "attributes": {
+        "name": "CPU Frequency",
+        "properties": {
+         "shape": "chronograf-v2",
+         "type": "single-stat",
+         "queries": [
+          {
+           "text": "from(bucket: \"bantam\")\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r[\"_measurement\"] == \"exec_freq_arm0\")\n  |> filter(fn: (r) => r[\"_field\"] == \"value\")\n  |> filter(fn: (r) => r[\"host\"] == v.pi1)\n  |> map(fn: (r) => ({r with _value: r._value / 1000}))\n  |> aggregateWindow(every: v.windowPeriod, fn: last, createEmpty: false)\n  |> yield(name: \"last\")",
+           "editMode": "advanced",
+           "name": "",
+           "builderConfig": {
+            "buckets": [],
+            "tags": [
+             {
+              "key": "_measurement",
+              "values": [],
+              "aggregateFunctionType": "filter"
+             }
+            ],
+            "functions": [
+             {
+              "name": "mean"
+             }
+            ],
+            "aggregateWindow": {
+             "period": "auto",
+             "fillValues": false
+            }
+           }
+          }
+         ],
+         "prefix": "",
+         "tickPrefix": "",
+         "suffix": "MHz",
+         "tickSuffix": "",
+         "colors": [
+          {
+           "id": "base",
+           "type": "text",
+           "hex": "#00C9FF",
+           "name": "laser",
+           "value": 0
+          }
+         ],
+         "decimalPlaces": {
+          "isEnforced": true,
+          "digits": 0
+         },
+         "note": "",
+         "showNoteWhenEmpty": false
+        }
+       }
+      },
+      {
+       "type": "view",
+       "id": "06f99a6601e7d000",
+       "attributes": {
+        "name": "CPU Frequency",
+        "properties": {
+         "shape": "chronograf-v2",
+         "type": "single-stat",
+         "queries": [
+          {
+           "text": "from(bucket: \"bantam\")\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r[\"_measurement\"] == \"exec_freq_arm0\")\n  |> filter(fn: (r) => r[\"_field\"] == \"value\")\n  |> filter(fn: (r) => r[\"host\"] == v.pi2)\n  |> map(fn: (r) => ({r with _value: r._value / 1000}))\n  |> aggregateWindow(every: v.windowPeriod, fn: last, createEmpty: false)\n  |> yield(name: \"last\")",
+           "editMode": "advanced",
+           "name": "",
+           "builderConfig": {
+            "buckets": [],
+            "tags": [
+             {
+              "key": "_measurement",
+              "values": [],
+              "aggregateFunctionType": "filter"
+             }
+            ],
+            "functions": [
+             {
+              "name": "mean"
+             }
+            ],
+            "aggregateWindow": {
+             "period": "auto",
+             "fillValues": false
+            }
+           }
+          }
+         ],
+         "prefix": "",
+         "tickPrefix": "",
+         "suffix": "MHz",
+         "tickSuffix": "",
+         "colors": [
+          {
+           "id": "base",
+           "type": "text",
+           "hex": "#00C9FF",
+           "name": "laser",
+           "value": 0
+          }
+         ],
+         "decimalPlaces": {
+          "isEnforced": true,
+          "digits": 0
+         },
+         "note": "",
+         "showNoteWhenEmpty": false
+        }
+       }
+      },
+      {
+       "type": "view",
+       "id": "06f99a8fcba7d000",
+       "attributes": {
+        "name": "CPU Frequency",
+        "properties": {
+         "shape": "chronograf-v2",
+         "type": "single-stat",
+         "queries": [
+          {
+           "text": "from(bucket: \"bantam\")\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r[\"_measurement\"] == \"exec_freq_arm0\")\n  |> filter(fn: (r) => r[\"_field\"] == \"value\")\n  |> filter(fn: (r) => r[\"host\"] == v.pi3)\n  |> map(fn: (r) => ({r with _value: r._value / 1000}))\n  |> aggregateWindow(every: v.windowPeriod, fn: last, createEmpty: false)\n  |> yield(name: \"last\")",
+           "editMode": "advanced",
+           "name": "",
+           "builderConfig": {
+            "buckets": [],
+            "tags": [
+             {
+              "key": "_measurement",
+              "values": [],
+              "aggregateFunctionType": "filter"
+             }
+            ],
+            "functions": [
+             {
+              "name": "mean"
+             }
+            ],
+            "aggregateWindow": {
+             "period": "auto",
+             "fillValues": false
+            }
+           }
+          }
+         ],
+         "prefix": "",
+         "tickPrefix": "",
+         "suffix": "MHz",
+         "tickSuffix": "",
+         "colors": [
+          {
+           "id": "base",
+           "type": "text",
+           "hex": "#00C9FF",
+           "name": "laser",
+           "value": 0
+          }
+         ],
+         "decimalPlaces": {
+          "isEnforced": true,
+          "digits": 0
+         },
+         "note": "",
+         "showNoteWhenEmpty": false
+        }
+       }
+      },
+      {
+       "type": "view",
+       "id": "06f99c39fb67d000",
+       "attributes": {
+        "name": "CPU Frequency",
+        "properties": {
+         "shape": "chronograf-v2",
+         "type": "single-stat",
+         "queries": [
+          {
+           "text": "from(bucket: \"bantam\")\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r[\"_measurement\"] == \"exec_freq_arm1\")\n  |> filter(fn: (r) => r[\"_field\"] == \"value\")\n  |> filter(fn: (r) => r[\"host\"] == v.pi1)\n  |> map(fn: (r) => ({r with _value: r._value / 1000}))\n  |> aggregateWindow(every: v.windowPeriod, fn: last, createEmpty: false)\n  |> yield(name: \"last\")",
+           "editMode": "advanced",
+           "name": "",
+           "builderConfig": {
+            "buckets": [],
+            "tags": [
+             {
+              "key": "_measurement",
+              "values": [],
+              "aggregateFunctionType": "filter"
+             }
+            ],
+            "functions": [
+             {
+              "name": "mean"
+             }
+            ],
+            "aggregateWindow": {
+             "period": "auto",
+             "fillValues": false
+            }
+           }
+          }
+         ],
+         "prefix": "",
+         "tickPrefix": "",
+         "suffix": "MHz",
+         "tickSuffix": "",
+         "colors": [
+          {
+           "id": "base",
+           "type": "text",
+           "hex": "#00C9FF",
+           "name": "laser",
+           "value": 0
+          }
+         ],
+         "decimalPlaces": {
+          "isEnforced": true,
+          "digits": 0
+         },
+         "note": "",
+         "showNoteWhenEmpty": false
+        }
+       }
+      },
+      {
+       "type": "view",
+       "id": "06f99c3c8367d000",
+       "attributes": {
+        "name": "CPU Frequency",
+        "properties": {
+         "shape": "chronograf-v2",
+         "type": "single-stat",
+         "queries": [
+          {
+           "text": "from(bucket: \"bantam\")\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r[\"_measurement\"] == \"exec_freq_arm2\")\n  |> filter(fn: (r) => r[\"_field\"] == \"value\")\n  |> filter(fn: (r) => r[\"host\"] == v.pi1)\n  |> map(fn: (r) => ({r with _value: r._value / 1000}))\n  |> aggregateWindow(every: v.windowPeriod, fn: last, createEmpty: false)\n  |> yield(name: \"last\")",
+           "editMode": "advanced",
+           "name": "",
+           "builderConfig": {
+            "buckets": [],
+            "tags": [
+             {
+              "key": "_measurement",
+              "values": [],
+              "aggregateFunctionType": "filter"
+             }
+            ],
+            "functions": [
+             {
+              "name": "mean"
+             }
+            ],
+            "aggregateWindow": {
+             "period": "auto",
+             "fillValues": false
+            }
+           }
+          }
+         ],
+         "prefix": "",
+         "tickPrefix": "",
+         "suffix": "MHz",
+         "tickSuffix": "",
+         "colors": [
+          {
+           "id": "base",
+           "type": "text",
+           "hex": "#00C9FF",
+           "name": "laser",
+           "value": 0
+          }
+         ],
+         "decimalPlaces": {
+          "isEnforced": true,
+          "digits": 0
+         },
+         "note": "",
+         "showNoteWhenEmpty": false
+        }
+       }
+      },
+      {
+       "type": "view",
+       "id": "06f99c437c67d000",
+       "attributes": {
+        "name": "CPU Frequency",
+        "properties": {
+         "shape": "chronograf-v2",
+         "type": "single-stat",
+         "queries": [
+          {
+           "text": "from(bucket: \"bantam\")\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r[\"_measurement\"] == \"exec_freq_arm3\")\n  |> filter(fn: (r) => r[\"_field\"] == \"value\")\n  |> filter(fn: (r) => r[\"host\"] == v.pi1)\n  |> map(fn: (r) => ({r with _value: r._value / 1000}))\n  |> aggregateWindow(every: v.windowPeriod, fn: last, createEmpty: false)\n  |> yield(name: \"last\")",
+           "editMode": "advanced",
+           "name": "",
+           "builderConfig": {
+            "buckets": [],
+            "tags": [
+             {
+              "key": "_measurement",
+              "values": [],
+              "aggregateFunctionType": "filter"
+             }
+            ],
+            "functions": [
+             {
+              "name": "mean"
+             }
+            ],
+            "aggregateWindow": {
+             "period": "auto",
+             "fillValues": false
+            }
+           }
+          }
+         ],
+         "prefix": "",
+         "tickPrefix": "",
+         "suffix": "MHz",
+         "tickSuffix": "",
+         "colors": [
+          {
+           "id": "base",
+           "type": "text",
+           "hex": "#00C9FF",
+           "name": "laser",
+           "value": 0
+          }
+         ],
+         "decimalPlaces": {
+          "isEnforced": true,
+          "digits": 0
+         },
+         "note": "",
+         "showNoteWhenEmpty": false
+        }
+       }
+      },
+      {
+       "type": "view",
+       "id": "06f99cdb9127d000",
+       "attributes": {
+        "name": "CPU Frequency",
+        "properties": {
+         "shape": "chronograf-v2",
+         "type": "single-stat",
+         "queries": [
+          {
+           "text": "from(bucket: \"bantam\")\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r[\"_measurement\"] == \"exec_freq_arm1\")\n  |> filter(fn: (r) => r[\"_field\"] == \"value\")\n  |> filter(fn: (r) => r[\"host\"] == v.pi2)\n  |> map(fn: (r) => ({r with _value: r._value / 1000}))\n  |> aggregateWindow(every: v.windowPeriod, fn: last, createEmpty: false)\n  |> yield(name: \"last\")",
+           "editMode": "advanced",
+           "name": "",
+           "builderConfig": {
+            "buckets": [],
+            "tags": [
+             {
+              "key": "_measurement",
+              "values": [],
+              "aggregateFunctionType": "filter"
+             }
+            ],
+            "functions": [
+             {
+              "name": "mean"
+             }
+            ],
+            "aggregateWindow": {
+             "period": "auto",
+             "fillValues": false
+            }
+           }
+          }
+         ],
+         "prefix": "",
+         "tickPrefix": "",
+         "suffix": "MHz",
+         "tickSuffix": "",
+         "colors": [
+          {
+           "id": "base",
+           "type": "text",
+           "hex": "#00C9FF",
+           "name": "laser",
+           "value": 0
+          }
+         ],
+         "decimalPlaces": {
+          "isEnforced": true,
+          "digits": 0
+         },
+         "note": "",
+         "showNoteWhenEmpty": false
+        }
+       }
+      },
+      {
+       "type": "view",
+       "id": "06f99cdf2567d000",
+       "attributes": {
+        "name": "CPU Frequency",
+        "properties": {
+         "shape": "chronograf-v2",
+         "type": "single-stat",
+         "queries": [
+          {
+           "text": "from(bucket: \"bantam\")\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r[\"_measurement\"] == \"exec_freq_arm2\")\n  |> filter(fn: (r) => r[\"_field\"] == \"value\")\n  |> filter(fn: (r) => r[\"host\"] == v.pi2)\n  |> map(fn: (r) => ({r with _value: r._value / 1000}))\n  |> aggregateWindow(every: v.windowPeriod, fn: last, createEmpty: false)\n  |> yield(name: \"last\")",
+           "editMode": "advanced",
+           "name": "",
+           "builderConfig": {
+            "buckets": [],
+            "tags": [
+             {
+              "key": "_measurement",
+              "values": [],
+              "aggregateFunctionType": "filter"
+             }
+            ],
+            "functions": [
+             {
+              "name": "mean"
+             }
+            ],
+            "aggregateWindow": {
+             "period": "auto",
+             "fillValues": false
+            }
+           }
+          }
+         ],
+         "prefix": "",
+         "tickPrefix": "",
+         "suffix": "MHz",
+         "tickSuffix": "",
+         "colors": [
+          {
+           "id": "base",
+           "type": "text",
+           "hex": "#00C9FF",
+           "name": "laser",
+           "value": 0
+          }
+         ],
+         "decimalPlaces": {
+          "isEnforced": true,
+          "digits": 0
+         },
+         "note": "",
+         "showNoteWhenEmpty": false
+        }
+       }
+      },
+      {
+       "type": "view",
+       "id": "06f99d3a9b67d000",
+       "attributes": {
+        "name": "CPU Frequency",
+        "properties": {
+         "shape": "chronograf-v2",
+         "type": "single-stat",
+         "queries": [
+          {
+           "text": "from(bucket: \"bantam\")\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r[\"_measurement\"] == \"exec_freq_arm3\")\n  |> filter(fn: (r) => r[\"_field\"] == \"value\")\n  |> filter(fn: (r) => r[\"host\"] == v.pi2)\n  |> map(fn: (r) => ({r with _value: r._value / 1000}))\n  |> aggregateWindow(every: v.windowPeriod, fn: last, createEmpty: false)\n  |> yield(name: \"last\")",
+           "editMode": "advanced",
+           "name": "",
+           "builderConfig": {
+            "buckets": [],
+            "tags": [
+             {
+              "key": "_measurement",
+              "values": [],
+              "aggregateFunctionType": "filter"
+             }
+            ],
+            "functions": [
+             {
+              "name": "mean"
+             }
+            ],
+            "aggregateWindow": {
+             "period": "auto",
+             "fillValues": false
+            }
+           }
+          }
+         ],
+         "prefix": "",
+         "tickPrefix": "",
+         "suffix": "MHz",
+         "tickSuffix": "",
+         "colors": [
+          {
+           "id": "base",
+           "type": "text",
+           "hex": "#00C9FF",
+           "name": "laser",
+           "value": 0
+          }
+         ],
+         "decimalPlaces": {
+          "isEnforced": true,
+          "digits": 0
+         },
+         "note": "",
+         "showNoteWhenEmpty": false
+        }
+       }
+      },
+      {
+       "type": "view",
+       "id": "06f99d50faa7d000",
+       "attributes": {
+        "name": "CPU Frequency",
+        "properties": {
+         "shape": "chronograf-v2",
+         "type": "single-stat",
+         "queries": [
+          {
+           "text": "from(bucket: \"bantam\")\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r[\"_measurement\"] == \"exec_freq_arm1\")\n  |> filter(fn: (r) => r[\"_field\"] == \"value\")\n  |> filter(fn: (r) => r[\"host\"] == v.pi3)\n  |> map(fn: (r) => ({r with _value: r._value / 1000}))\n  |> aggregateWindow(every: v.windowPeriod, fn: last, createEmpty: false)\n  |> yield(name: \"last\")",
+           "editMode": "advanced",
+           "name": "",
+           "builderConfig": {
+            "buckets": [],
+            "tags": [
+             {
+              "key": "_measurement",
+              "values": [],
+              "aggregateFunctionType": "filter"
+             }
+            ],
+            "functions": [
+             {
+              "name": "mean"
+             }
+            ],
+            "aggregateWindow": {
+             "period": "auto",
+             "fillValues": false
+            }
+           }
+          }
+         ],
+         "prefix": "",
+         "tickPrefix": "",
+         "suffix": "MHz",
+         "tickSuffix": "",
+         "colors": [
+          {
+           "id": "base",
+           "type": "text",
+           "hex": "#00C9FF",
+           "name": "laser",
+           "value": 0
+          }
+         ],
+         "decimalPlaces": {
+          "isEnforced": true,
+          "digits": 0
+         },
+         "note": "",
+         "showNoteWhenEmpty": false
+        }
+       }
+      },
+      {
+       "type": "view",
+       "id": "06f99d5904e7d000",
+       "attributes": {
+        "name": "CPU Frequency",
+        "properties": {
+         "shape": "chronograf-v2",
+         "type": "single-stat",
+         "queries": [
+          {
+           "text": "from(bucket: \"bantam\")\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r[\"_measurement\"] == \"exec_freq_arm2\")\n  |> filter(fn: (r) => r[\"_field\"] == \"value\")\n  |> filter(fn: (r) => r[\"host\"] == v.pi3)\n  |> map(fn: (r) => ({r with _value: r._value / 1000}))\n  |> aggregateWindow(every: v.windowPeriod, fn: last, createEmpty: false)\n  |> yield(name: \"last\")",
+           "editMode": "advanced",
+           "name": "",
+           "builderConfig": {
+            "buckets": [],
+            "tags": [
+             {
+              "key": "_measurement",
+              "values": [],
+              "aggregateFunctionType": "filter"
+             }
+            ],
+            "functions": [
+             {
+              "name": "mean"
+             }
+            ],
+            "aggregateWindow": {
+             "period": "auto",
+             "fillValues": false
+            }
+           }
+          }
+         ],
+         "prefix": "",
+         "tickPrefix": "",
+         "suffix": "MHz",
+         "tickSuffix": "",
+         "colors": [
+          {
+           "id": "base",
+           "type": "text",
+           "hex": "#00C9FF",
+           "name": "laser",
+           "value": 0
+          }
+         ],
+         "decimalPlaces": {
+          "isEnforced": true,
+          "digits": 0
+         },
+         "note": "",
+         "showNoteWhenEmpty": false
+        }
+       }
+      },
+      {
+       "type": "view",
+       "id": "06f99d5ca7a7d000",
+       "attributes": {
+        "name": "CPU Frequency",
+        "properties": {
+         "shape": "chronograf-v2",
+         "type": "single-stat",
+         "queries": [
+          {
+           "text": "from(bucket: \"bantam\")\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r[\"_measurement\"] == \"exec_freq_arm3\")\n  |> filter(fn: (r) => r[\"_field\"] == \"value\")\n  |> filter(fn: (r) => r[\"host\"] == v.pi3)\n  |> map(fn: (r) => ({r with _value: r._value / 1000}))\n  |> aggregateWindow(every: v.windowPeriod, fn: last, createEmpty: false)\n  |> yield(name: \"last\")",
+           "editMode": "advanced",
+           "name": "",
+           "builderConfig": {
+            "buckets": [],
+            "tags": [
+             {
+              "key": "_measurement",
+              "values": [],
+              "aggregateFunctionType": "filter"
+             }
+            ],
+            "functions": [
+             {
+              "name": "mean"
+             }
+            ],
+            "aggregateWindow": {
+             "period": "auto",
+             "fillValues": false
+            }
+           }
+          }
+         ],
+         "prefix": "",
+         "tickPrefix": "",
+         "suffix": "MHz",
+         "tickSuffix": "",
+         "colors": [
+          {
+           "id": "base",
+           "type": "text",
+           "hex": "#00C9FF",
+           "name": "laser",
+           "value": 0
+          }
+         ],
+         "decimalPlaces": {
+          "isEnforced": true,
+          "digits": 0
+         },
+         "note": "",
+         "showNoteWhenEmpty": false
+        }
+       }
+      },
+      {
+       "type": "view",
+       "id": "06f9b69e99e7d000",
+       "attributes": {
+        "name": "System Load",
+        "properties": {
+         "shape": "chronograf-v2",
+         "queries": [
+          {
+           "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart)\n  |> filter(fn: (r) => r._measurement == \"system\")\n  |> filter(fn: (r) => r._field == \"load1\" or r._field == \"load5\" or r._field == \"load15\")\n  |> filter(fn: (r) => r[\"host\"] == v.pi2)\n  |> aggregateWindow(every: v.windowPeriod, fn: mean, createEmpty: false)\n  |> yield(name: \"mean\")",
+           "editMode": "advanced",
+           "name": "",
+           "builderConfig": {
+            "buckets": [],
+            "tags": [
+             {
+              "key": "_measurement",
+              "values": [],
+              "aggregateFunctionType": "filter"
+             }
+            ],
+            "functions": [
+             {
+              "name": "mean"
+             }
+            ],
+            "aggregateWindow": {
+             "period": "auto",
+             "fillValues": false
+            }
+           }
+          }
+         ],
+         "axes": {
+          "x": {
+           "bounds": [
+            "",
+            ""
+           ],
+           "label": "",
+           "prefix": "",
+           "suffix": "",
+           "base": "10",
+           "scale": "linear"
+          },
+          "y": {
+           "bounds": [
+            "",
+            ""
+           ],
+           "label": "Load",
+           "prefix": "",
+           "suffix": "",
+           "base": "10",
+           "scale": "linear"
+          },
+          "y2": {
+           "bounds": [
+            "",
+            ""
+           ],
+           "label": "",
+           "prefix": "",
+           "suffix": "",
+           "base": "10",
+           "scale": "linear"
+          }
+         },
+         "type": "xy",
+         "legend": {},
+         "geom": "line",
+         "colors": [],
+         "note": "",
+         "showNoteWhenEmpty": false,
+         "xColumn": "_time",
+         "generateXAxisTicks": null,
+         "xTotalTicks": 0,
+         "xTickStart": 0,
+         "xTickStep": 0,
+         "yColumn": "_value",
+         "generateYAxisTicks": null,
+         "yTotalTicks": 0,
+         "yTickStart": 0,
+         "yTickStep": 0,
+         "shadeBelow": false,
+         "position": "",
+         "timeFormat": "",
+         "hoverDimension": "",
+         "legendColorizeRows": false,
+         "legendOpacity": 0,
+         "legendOrientationThreshold": 0
+        }
+       }
+      },
+      {
+       "type": "view",
+       "id": "06f9b6cccd67d000",
+       "attributes": {
+        "name": "Processes",
+        "properties": {
+         "shape": "chronograf-v2",
+         "queries": [
+          {
+           "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart)\n  |> filter(fn: (r) => r._measurement == \"processes\")\n  |> filter(fn: (r) => r._field == \"running\" or r._field == \"blocked\" or r._field == \"idle\" or r._field == \"unknown\")\n  |> filter(fn: (r) => r[\"host\"] == v.pi2)\n  |> aggregateWindow(every: v.windowPeriod, fn: max)\n  |> yield(name: \"max\")",
+           "editMode": "advanced",
+           "name": "",
+           "builderConfig": {
+            "buckets": [],
+            "tags": [
+             {
+              "key": "_measurement",
+              "values": [],
+              "aggregateFunctionType": "filter"
+             }
+            ],
+            "functions": [
+             {
+              "name": "mean"
+             }
+            ],
+            "aggregateWindow": {
+             "period": "auto",
+             "fillValues": false
+            }
+           }
+          }
+         ],
+         "axes": {
+          "x": {
+           "bounds": [
+            "",
+            ""
+           ],
+           "label": "",
+           "prefix": "",
+           "suffix": "",
+           "base": "10",
+           "scale": "linear"
+          },
+          "y": {
+           "bounds": [
+            "",
+            ""
+           ],
+           "label": "",
+           "prefix": "",
+           "suffix": "",
+           "base": "10",
+           "scale": "linear"
+          },
+          "y2": {
+           "bounds": [
+            "",
+            ""
+           ],
+           "label": "",
+           "prefix": "",
+           "suffix": "",
+           "base": "10",
+           "scale": "linear"
+          }
+         },
+         "type": "xy",
+         "legend": {},
+         "geom": "line",
+         "colors": [],
+         "note": "",
+         "showNoteWhenEmpty": false,
+         "xColumn": "_time",
+         "generateXAxisTicks": null,
+         "xTotalTicks": 0,
+         "xTickStart": 0,
+         "xTickStep": 0,
+         "yColumn": "_value",
+         "generateYAxisTicks": null,
+         "yTotalTicks": 0,
+         "yTickStart": 0,
+         "yTickStep": 0,
+         "shadeBelow": false,
+         "position": "",
+         "timeFormat": "",
+         "hoverDimension": "",
+         "legendColorizeRows": false,
+         "legendOpacity": 0,
+         "legendOrientationThreshold": 0
+        }
+       }
+      },
+      {
+       "type": "view",
+       "id": "06f9b6e31027d000",
+       "attributes": {
+        "name": "System Load",
+        "properties": {
+         "shape": "chronograf-v2",
+         "queries": [
+          {
+           "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart)\n  |> filter(fn: (r) => r._measurement == \"system\")\n  |> filter(fn: (r) => r._field == \"load1\" or r._field == \"load5\" or r._field == \"load15\")\n  |> filter(fn: (r) => r[\"host\"] == v.pi3)\n  |> aggregateWindow(every: v.windowPeriod, fn: mean, createEmpty: false)\n  |> yield(name: \"mean\")",
+           "editMode": "advanced",
+           "name": "",
+           "builderConfig": {
+            "buckets": [],
+            "tags": [
+             {
+              "key": "_measurement",
+              "values": [],
+              "aggregateFunctionType": "filter"
+             }
+            ],
+            "functions": [
+             {
+              "name": "mean"
+             }
+            ],
+            "aggregateWindow": {
+             "period": "auto",
+             "fillValues": false
+            }
+           }
+          }
+         ],
+         "axes": {
+          "x": {
+           "bounds": [
+            "",
+            ""
+           ],
+           "label": "",
+           "prefix": "",
+           "suffix": "",
+           "base": "10",
+           "scale": "linear"
+          },
+          "y": {
+           "bounds": [
+            "",
+            ""
+           ],
+           "label": "Load",
+           "prefix": "",
+           "suffix": "",
+           "base": "10",
+           "scale": "linear"
+          },
+          "y2": {
+           "bounds": [
+            "",
+            ""
+           ],
+           "label": "",
+           "prefix": "",
+           "suffix": "",
+           "base": "10",
+           "scale": "linear"
+          }
+         },
+         "type": "xy",
+         "legend": {},
+         "geom": "line",
+         "colors": [],
+         "note": "",
+         "showNoteWhenEmpty": false,
+         "xColumn": "_time",
+         "generateXAxisTicks": null,
+         "xTotalTicks": 0,
+         "xTickStart": 0,
+         "xTickStep": 0,
+         "yColumn": "_value",
+         "generateYAxisTicks": null,
+         "yTotalTicks": 0,
+         "yTickStart": 0,
+         "yTickStep": 0,
+         "shadeBelow": false,
+         "position": "",
+         "timeFormat": "",
+         "hoverDimension": "",
+         "legendColorizeRows": false,
+         "legendOpacity": 0,
+         "legendOrientationThreshold": 0
+        }
+       }
+      },
+      {
+       "type": "view",
+       "id": "06f9b6e931a7d000",
+       "attributes": {
+        "name": "Processes",
+        "properties": {
+         "shape": "chronograf-v2",
+         "queries": [
+          {
+           "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart)\n  |> filter(fn: (r) => r._measurement == \"processes\")\n  |> filter(fn: (r) => r._field == \"running\" or r._field == \"blocked\" or r._field == \"idle\" or r._field == \"unknown\")\n  |> filter(fn: (r) => r[\"host\"] == v.pi3)\n  |> aggregateWindow(every: v.windowPeriod, fn: max)\n  |> yield(name: \"max\")",
+           "editMode": "advanced",
+           "name": "",
+           "builderConfig": {
+            "buckets": [],
+            "tags": [
+             {
+              "key": "_measurement",
+              "values": [],
+              "aggregateFunctionType": "filter"
+             }
+            ],
+            "functions": [
+             {
+              "name": "mean"
+             }
+            ],
+            "aggregateWindow": {
+             "period": "auto",
+             "fillValues": false
+            }
+           }
+          }
+         ],
+         "axes": {
+          "x": {
+           "bounds": [
+            "",
+            ""
+           ],
+           "label": "",
+           "prefix": "",
+           "suffix": "",
+           "base": "10",
+           "scale": "linear"
+          },
+          "y": {
+           "bounds": [
+            "",
+            ""
+           ],
+           "label": "",
+           "prefix": "",
+           "suffix": "",
+           "base": "10",
+           "scale": "linear"
+          },
+          "y2": {
+           "bounds": [
+            "",
+            ""
+           ],
+           "label": "",
+           "prefix": "",
+           "suffix": "",
+           "base": "10",
+           "scale": "linear"
+          }
+         },
+         "type": "xy",
+         "legend": {},
+         "geom": "line",
+         "colors": [],
+         "note": "",
+         "showNoteWhenEmpty": false,
+         "xColumn": "_time",
+         "generateXAxisTicks": null,
+         "xTotalTicks": 0,
+         "xTickStart": 0,
+         "xTickStep": 0,
+         "yColumn": "_value",
+         "generateYAxisTicks": null,
+         "yTotalTicks": 0,
+         "yTickStart": 0,
+         "yTickStep": 0,
+         "shadeBelow": false,
+         "position": "",
+         "timeFormat": "",
+         "hoverDimension": "",
+         "legendColorizeRows": false,
+         "legendOpacity": 0,
+         "legendOrientationThreshold": 0
+        }
+       }
+      },
+      {
+       "type": "view",
+       "id": "0705134ec88a9000",
+       "attributes": {
+        "name": "Name this Cell",
+        "properties": {
+         "shape": "chronograf-v2",
+         "type": "markdown",
+         "note": "# Pi 1 - Control Plane + Node"
+        }
+       }
+      },
+      {
+       "type": "view",
+       "id": "07051372158a9000",
+       "attributes": {
+        "name": "Name this Cell",
+        "properties": {
+         "shape": "chronograf-v2",
+         "type": "markdown",
+         "note": "# Pi 2 - Node"
+        }
+       }
+      },
+      {
+       "type": "view",
+       "id": "0705140f4c0a9000",
+       "attributes": {
+        "name": "Name this Cell",
+        "properties": {
+         "shape": "chronograf-v2",
+         "type": "markdown",
+         "note": "# Pi 3 - Node"
+        }
+       }
+      },
+      {
+       "id": "06f94cb8a99fd000",
+       "type": "variable",
+       "attributes": {
+        "name": "bucket",
+        "arguments": {
+         "type": "query",
+         "values": {
+          "query": "buckets()\n  |> filter(fn: (r) => r.name !~ /^_/)\n  |> rename(columns: {name: \"_value\"})\n  |> keep(columns: [\"_value\"])\n",
+          "language": "flux"
+         }
+        },
+        "selected": null
+       },
+       "relationships": {
+        "label": {
+         "data": []
+        }
+       }
+      },
+      {
+       "id": "0715cd3cb3e61000",
+       "type": "variable",
+       "attributes": {
+        "name": "pi1",
+        "arguments": {
+         "type": "query",
+         "values": {
+          "query": "from (bucket: v.bucket)\n  |> range(start: v.timeRangeStart)\n  |> keep(columns: [\"host\"])\n  |> distinct(column: \"host\")\n  |> filter(fn: (r) => r[\"host\"] == v.pi1)\n  |> keep(columns: [\"_value\"])\n",
+          "language": "flux"
+         }
+        },
+        "selected": []
+       },
+       "relationships": {
+        "label": {
+         "data": []
+        }
+       }
+      }
+     ]
+    },
+    "labels": []
+   }
