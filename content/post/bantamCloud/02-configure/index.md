@@ -14,7 +14,7 @@ Part two of this series will cover base configuration for your Pis. Before we ge
 You will need one SD card for each Pi, if you're following this blog exactly, flash them with the [Ubuntu Server 20.04.1 64bit for Raspberry Pi (Direct link to Ubuntu download site)](https://ubuntu.com/download/raspberry-pi/thank-you?version=20.04.1&architecture=server-arm64+raspi)
 
 ## Pi Power
-Hopefully, if you followed the previous post [bantamCloud - Part 1 - Building](https://2byt.es/post/bantamcloud/01-build/) you already have a power brick as part of your cluster. You'll need 3 short USB-C cables to connect the Pis to the power brick, 15-30cm should be fine but they won't be great for the aesthetic (I'm still working on a way to get some short, perfect length cables with right-angle connectors for a nice clean build).
+Hopefully, if you followed the previous post [bantamCloud - Part 1 - Build](https://2byt.es/post/bantamcloud/01-build/) you already have a power brick as part of your cluster. You'll need 3 short USB-C cables to connect the Pis to the power brick, 15-30cm should be fine but they won't be great for the aesthetic (I'm still working on a way to get some short, perfect length cables with right-angle connectors for a nice clean build).
 
 ## Fan Power
 Hopefully you bought a fan with a USB adapter such as the 5V Noctua ones suggested in my previous post. If not, you can make one like mine with a little soldering skill and a spare fan connector and USB plug; feel free to repurpose some old USB cable and fan connector if possible!
