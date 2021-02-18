@@ -1,5 +1,5 @@
 ---
-title: "bantamCloud - Part 1 - Building"
+title: "bantamCloud - Part 1 - Build"
 date: 2021-01-13T16:20:00Z
 draft: false
 cover: "images/Pi-MicroCluster.jpg"
