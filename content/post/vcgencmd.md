@@ -10,6 +10,11 @@ This post is a quick one (hopefully) to help those like myself, running Ubuntu o
 
 <!--more-->
 
+> **UPDATE 2021-04-20:**
+> Thanks to user [@lucasfolino on Github](https://github.com/2bytes/website/issues/28) for pointing out that `vcgencmd` (amongst other utils) can be installed by adding the package
+`libraspberrypi-bin`. If you want the quickest and easiest way to get vcgencmd, simply run
+`sudo apt-get install libraspberrypi-bin`, that's it, done!
+
 ## Backstory
 
 I spent the end of last year working on a new cluster set-up for my Raspberry Pi 4s, the start of the previous - was documented on the [Raspberry Pi forum](https://www.raspberrypi.org/forums/viewtopic.php?f=29&t=271862#p1648048) if you're interested in the journey. The forum post - was thermally challenged and in order to find the best solution I needed to monitor the Pi.
