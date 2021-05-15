@@ -23,7 +23,7 @@ Let's begin with Architecture;
 
 # Architecture
 
-I could write for hours about CPU architectures, I graduated from an Engineering department whose alumni notably include Sir Robin Saxby, the first CEO of (ARM)[https://en.wikipedia.org/wiki/Arm_Ltd]. We wrote ARM assembly, studied microprocessor design where we implemented a (MIPS)[https://en.wikipedia.org/wiki/MIPS_architecture] instruction set in (VHDL)[https://en.wikipedia.org/wiki/VHDL], and even laid out simple parts of an ARM SoC silicon using a pencil and paper. I built my dissertation project on FPGAs, which can run ARM cores implemented in software!
+I could write for hours about CPU architectures, I graduated from an Engineering department whose alumni notably include Sir Robin Saxby, the first CEO of [ARM](https://en.wikipedia.org/wiki/Arm_Ltd). We wrote ARM assembly, studied microprocessor design where we implemented a [MIPS](https://en.wikipedia.org/wiki/MIPS_architecture) instruction set in [VHDL](https://en.wikipedia.org/wiki/VHDL), and even laid out simple parts of an ARM SoC silicon using a pencil and paper. I built my dissertation project on FPGAs, which can run ARM cores implemented in software!
 
 Needless to say, it's a topic I find extremely interesting. Alas, this post is already of out hand (I wrote the networking section first), so I'll try and get to the point.
 
@@ -53,7 +53,7 @@ In order to run any software, you need somewhere to store it. Kubernetes deploys
 
 ## Endurance
 
-The Raspberry Pi runs on Micro SD cards by default. Micro SD cards do not provide the level or read/write endurance a proper storage drive like a desktop SSD or spinning drive does. The Raspberry Pi also has very little in the way of protection circuitry/logic for the MicroSD slot, and things like poor power supply, power cuts etc can corrupt SD cards. I've killed a dozen or more high-quality Micro SD cards in Raspberry Pis over the years. Because of this, Micro SD storage is not ideal for write-heavy workloads, such as Kubernetes, *Caveat Emptor* (buyer beware).
+The Raspberry Pi runs on Micro SD cards by default. Micro SD cards do not provide the level or read/write endurance a proper storage drive like a desktop SSD or spinning drive does. The Raspberry Pi also has very little in the way of protection circuitry/logic for the MicroSD slot, and things like poor power supply, power cuts etc can corrupt SD cards. I've killed a dozen or more high-quality Micro SD cards in Raspberry Pis over the years. Because of this, Micro SD storage is not ideal for write-heavy workloads, such as Kubernetes, *caveat emptor* (buyer beware).
 
 One solution to this issue is to mount a more durable storage device, use a high quality flash USB stick, or even plug in a USB HDD or SSD (although USB storages comes with its own caveats). I've even seen eMMC based devices which fit into the slot on the Pi and emulate a Micro SD. These provide a much more durable storage device as eMMC durability and speed is better than that of Micro SD. I've not yet had the pleasure of testing these myself.
 
@@ -89,7 +89,7 @@ For this chatter to occur, there needs to be a connection between the nodes and 
 
 ![figure-2](images/figure-2.drawio.png) Figure 2
 
-Figure 2 shows the communications occuring in a Kubernetes cluster in terms of the network switching. The control plane node is represented by the ⚙️, it is placed in the middle to simplify the diagram. Each node must communicate with the control-plane, this is indicated by the blue dashed line. This constant communication uses up some of that 1Gb bandwidth of the network interface on the Pi, leaving the rest, the orange line, for communication with the outside world.
+Figure 2 shows the communications occurring in a Kubernetes cluster in terms of the network switching. The control plane node is represented by the ⚙️, it is placed in the middle to simplify the diagram. Each node must communicate with the control-plane, this is indicated by the blue dashed line. This constant communication uses up some of that 1Gb bandwidth of the network interface on the Pi, leaving the rest, the orange line, for communication with the outside world.
 
 Now, if we have only 1Gb out of the bottom of our switch, known as "upstream", and Kubernetes is using less than 2/3 of the bandwidth of each node to chat to the control plane, the upstream 1Gb port on our switch is a bottleneck.
 
@@ -103,17 +103,17 @@ In order to understand how the networking could be better, it is important to de
 
 Within the construct of the Pis, the easiest solution to gain maximum "upstream" potential is to use a switch with a "fatter" pipe. In other words, a network stream with a port capable of more than 1Gb to connect it to rest of the network would allow us to maximise the 1Gb capability of each Pi.
 
-There are network switches with 10Gb or more "upstream" links for example, they're not cheap, and you need other network hardware capable of handling this higher bandwidth, then would need to be accessing the cluster from a machine with more than a 1 Gb connection, or from multiple machines each with 1Gb to share the cluster badwidth.
+There are network switches with 10Gb or more "upstream" links for example, they're not cheap, and you need other network hardware capable of handling this higher bandwidth, then would need to be accessing the cluster from a machine with more than a 1 Gb connection, or from multiple machines each with 1Gb to share the cluster bandwidth.
 
 As you can imagine this is an (expensive) rabbit hole.
 
 #### Additional Network Connections (_Maybe_ works with Pi)
 
-An alternative option is to separate the Kubernetes networking, from the networking required to access your applications on the cluster. Such a separation might be called a "backend" and a frontend", where the "backend provides a network for Kubernetes traffic" and the "frontend" provides the user traffic.
+An alternative option is to separate the Kubernetes networking, from the networking required to access your applications on the cluster. Such a separation might be called a "backend" and a "frontend", where the "backend" provides a network for Kubernetes traffic and the "frontend" provides the user traffic.
 
 This approach is best, and with another system which isn't a Pi, it may have additional network connections already, or more can be added.
 
-This is where the "maybe" comes in;
+This is where the _maybe_ comes in;
 
 ##### Pi has WiFi
 
@@ -137,9 +137,9 @@ In order to take advantage of a Kubernetes cluster which can move pods around dy
 
 Kubernetes is heavily geared towards cloud providers and their load balancers. It is able to hook into the APIs of the big players in the cloud, and deploy load balancers automatically, updating endpoints and ensuring failover happens all without you leaving your Kubernetes manifests. When you're deploying your own cluster on bare metal, options are limited, but there are solutions.
 
-### Metal LB (In cluster)
+### MetalLB (In cluster)
 
-The first option, and possibly the best for an automatic deployment is [MetalLB](https://metallb.universe.tf/). MetalLB runs in your cluster like any other workload. Metal LB offers two modes, "layer 2" where it uses ARP to manage load balancing. This is easy to set up, but it is important to understand the deficiencies of this option. The details are out of scope for this post, so I recommend reading up on the Metal LB site for more details.
+The first option, and possibly the best for an automatic deployment is [MetalLB](https://metallb.universe.tf/). MetalLB runs in your cluster like any other workload. MetalLB offers two modes, "Layer 2" where it uses ARP to manage load balancing. This is easy to set up, but it is important to understand the deficiencies of this option. The details are out of scope for this post, so I recommend reading up on the MetalLB site for more details.
 
 The second mode of MetalLB is "BGP". This is powerful, and is the protocol which the backbone of the internet runs on. The downside of this option is that it requires supported routers. Your typical ISP provided router likely does NOT support this option.
 
@@ -147,7 +147,7 @@ The second mode of MetalLB is "BGP". This is powerful, and is the protocol which
 
 A software load balancer can sit in front of your cluster, it works as a software switch to choose between which of the nodes behind it traffic should be routed to. A software load balancer detects which node to use by performing a health check, it will ping an endpoint on each node per your specifications, whichever one responds will receive traffic, this could be one, some or all. How traffic is routed to the nodes is often configurable in a variety of ways including round-robin, least connections, weighted, and more. It is also possible to use to enforce "sticky sessions", in this mode, users/clients will be routed to the same node, where possible.
 
-One such software load balancer is (HA Proxy)[https://www.haproxy.org/]. HAProxy is a powerful yet easy to configure TCP/HTTP load balancer. Some cloud providers have based their own load balancers on HAProxy.
+One such software load balancer is [HA Proxy](https://www.haproxy.org/). HAProxy is a powerful yet easy to configure TCP/HTTP load balancer. Some cloud providers have based their own load balancers on HAProxy.
 
 Software load balancers such as HA proxy have one inconvenience though; they need another piece of hardware in front of your cluster to run on. This can be a virtual machine, or another Pi for example but may be totally out of the question if you don't have something to run it on. The other downside of using a load balancer like this, is that they are typically not integrated with Kubernetes. You'll have to configure it manually for each Ingress/Service you wish to deploy to your cluster.
 
@@ -161,4 +161,4 @@ The issues of automating load balancing, storage which can move with your pods, 
 
 My personal opinion is that Pi is a great platform to learn Kubernetes and the challenges it poses when deploying on bare metal, and provides the opportunity to understand the solutions to load balancing, storage management all while allowing you to simulate failover scenarios like pulling the network cable, or turning off a node, things which can't easily be simulated in Minikube or similar.
 
-Since I already have much more powerful servers on which I run Kubernetes at home, and in the cloud, I'll likely dedicate this cluster to "serverless functions" using (OpenFaaS)[https://www.openfaas.com/] and deploying code I write in my language of choice, Golang, compiled for ARM 64 bit (aarch64).
+Since I already have much more powerful servers on which I run Kubernetes at home, and in the cloud, I'll likely dedicate this cluster to "serverless functions" using [OpenFaaS](https://www.openfaas.com/) and deploying code I write in my language of choice, Golang, compiled for ARM 64 bit (aarch64).
