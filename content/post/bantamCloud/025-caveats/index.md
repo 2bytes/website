@@ -1,7 +1,7 @@
 ---
 title: "bantamCloud - Part 2.5 - Caveats"
-date: 2021-05-03T011:00:00Z
-draft: true
+date: 2021-05-16T09:34:00Z
+draft: false
 cover: "images/caveats.png"
 useRelativeCover: true
 ---
