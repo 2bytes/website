@@ -14,7 +14,7 @@ What we need as a solution for deploying Kubernetes in a lean, simple to deploy 
 
 Certified Kubernetes distributions will carry a badge, something like this;
 
-<image src="images/certified_kubernetes.png" alt="kubernetes certified badge" >
+![images/certified_kubernetes](images/certified_kubernetes.png)
 
 Certification means that the distribution has been through a test process and passed, and it is certified to be compatible with the Kubernetes API and ecosystem, we want to use one of this certified distributions if we want to learn Kubernetes.
 
