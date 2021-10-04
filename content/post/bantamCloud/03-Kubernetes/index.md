@@ -1,7 +1,7 @@
 ---
 title: "bantamCloud - Part 3 - Kubernetes"
 date: 2021-10-04T18:00:00+01:00
-draft: true
+draft: false
 cover: "images/kubernetes.png"
 useRelativeCover: true
 ---
