@@ -1,9 +1,9 @@
-+++
-title = "Home Assistant OS + Frigate Storage on Proxmox"
-date = 2023-02-22T20:00:00Z
-draft = true
-image = "haos/title.png"
-++++
+---
+title: "Home Assistant OS + Frigate Storage on Proxmox"
+date: 2023-02-22T20:00:00Z
+draft: true
+cover: "/images/haos/title.png"
+---
 
 # Introduction
 

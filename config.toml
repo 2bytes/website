@@ -17,7 +17,7 @@ paginate = 20
   [languages.en]
     title = "2bytes"
     subtitle = "just my 2bytes"
-    keywords = "raspberry pi, linux, security, electronics, soldering, docker, golang"
+    keywords = "raspberry pi, linux, security, electronics, soldering, docker, golang, kubernetes, home assistant"
     copyright = ""
     menuMore = "Show more"
     writtenBy = "Written by"
