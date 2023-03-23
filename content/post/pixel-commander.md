@@ -1,9 +1,9 @@
-+++
-date = "2013-11-26T00:00:00+01:00"
-draft = false
-title = "Pixel Commander - Arduino UART RGB L.E.D. Controller"
-image = "pxl-com/title.jpg"
-+++
+---
+title: "Pixel Commander - Arduino UART RGB L.E.D. Controller"
+date: 2013-11-26T00:00:00+01:00
+draft: false
+cover: "/images/pxl-com/title.jpg"
+---
 
 ![9-LED Pixel Square with Arduino Compatible](/images/pxl-com/pxlc01.jpg)
 

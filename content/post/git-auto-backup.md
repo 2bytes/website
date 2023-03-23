@@ -1,9 +1,9 @@
-+++
-date = "2015-10-18T00:00:00+01:00"
-draft = false
-title = "[Linux] Backup Git repos when USB device is inserted"
-image = "git-bak/title.png"
-+++
+---
+title: "[Linux] Backup Git repos when USB device is inserted"
+date: 2015-10-18T00:00:00+01:00
+draft: false
+cover: "/images/git-bak/title.png"
+---
 
 One thing I have always struggled with is finding the time to make backups.
 

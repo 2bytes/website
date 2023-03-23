@@ -1,9 +1,9 @@
-+++
-date = "2014-12-10T00:00:00+01:00"
-draft = false
-title = "Pushover BASH script - Bashover"
-image = "bo-sh/title.png"
-+++
+---
+title: "Pushover BASH script - Bashover"
+date: 2014-12-10T00:00:00+01:00
+draft: false
+cover: "/images/bo-sh/title.png"
+---
 
 ![Using Bashover in a Linux shell](/images/bo-sh/bosh01.png)
 

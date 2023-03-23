@@ -1,9 +1,9 @@
-+++
-date = "2014-07-21T00:00:00+01:00"
-draft = false
-title = "Raspberry Pi B vs B+ Power"
-image = "rpi-pow/title.jpg"
-+++
+---
+title: "Raspberry Pi B vs B+ Power"
+date: 2014-07-21T00:00:00+01:00
+draft: false
+cover: "/images/rpi-pow/title.jpg"
+---
 
 ![Rapberry Pi Model B and Raspberry Pi Model B+](/images/rpi-pow/rpi01.jpg)
 
