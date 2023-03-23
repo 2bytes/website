@@ -1,9 +1,9 @@
-+++
-date = "2014-09-03T00:00:00+01:00"
-draft = false
-title = "Serial Commander - Arduino UART Command Library"
-image = "srl-com/title.png"
-+++
+---
+title: "Serial Commander - Arduino UART Command Library"
+date: 2014-09-03T00:00:00+01:00
+draft: false
+cover: "/images/srl-com/title.png"
+---
 
 Sadly, this post won’t be as image heavy as I like to make them. On it’s own, there is little to show, but the thing that’s really exciting abut this simple library is that it allows me to update Pixel Commander to a point I consider ready to continue the project I’ve spent a long time procrastinating over.
 

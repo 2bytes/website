@@ -1,9 +1,9 @@
-+++
-date = "2013-02-09T00:00:00+01:00"
-draft = false
-title = "Tips n Tricks - Surface Mount Soldering"
-image = "tnt-smt1/title.jpg"
-+++
+---
+title: "Tips n Tricks - Surface Mount Soldering"
+date: 2013-02-09T00:00:00+01:00
+draft: false
+cover: "/images/tnt-smt1/title.jpg"
+---
 
 Surface mount soldering if somewhat of an art. Maybe not a fine art, but one that I can appreciate none the less.
 

@@ -1,9 +1,9 @@
-+++
-draft = false
-date = "2017-01-03T21:41:40Z"
-title = "IoT Danger Zone - Part 3 - Firmware"
-image = "dz-iot/title1.png"
-+++
+---
+title: "IoT Danger Zone - Part 3 - Firmware"
+date: "2017-01-03T21:41:40Z"
+draft: false
+cover: "/images/dz-iot/title1.png"
+---
 
 > Note: I'm going to put a few links in this post to definitions, Wikis and/or articles, feel free to detour there and read more depth about anything of interest that I don't cover in details here.
 

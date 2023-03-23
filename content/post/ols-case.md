@@ -1,9 +1,9 @@
-+++
-date = "2014-07-08T00:00:00+01:00"
-draft = false
-title = "Open Logic Sniffer Case"
-image = "ols-case/title.jpg"
-+++
+---
+title: "Open Logic Sniffer Case"
+date: 2014-07-08T00:00:00+01:00
+draft: false
+cover: "/images/ols-case/title.jpg"
+---
 
 ![Open Logic Sniffer Case](/images/ols-case/olsc00.jpg)
 

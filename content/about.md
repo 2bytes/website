@@ -1,6 +1,6 @@
-+++
-title = "About Me"
-+++
+---
+title: "About Me"
+---
 
 I, Hamid Elaosta [(Mastodon)](https://fosstodon.org/@hamido), [(Twitter)](https://twitter.com/alias_neo_one) am a Senior Software Engineer based in England. I was educated in Electronic Engineering, so I enjoy the odd electronics project, getting out the oscilloscope, or the soldering iron.
 
