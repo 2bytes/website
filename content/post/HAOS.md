@@ -1,7 +1,7 @@
 ---
 title: "Home Assistant OS + Frigate Storage on Proxmox"
-date: 2023-02-22T20:00:00Z
-draft: true
+date: 2023-03-23T21:00:00Z
+draft: false
 cover: "/images/haos/title.png"
 ---
 
