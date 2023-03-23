@@ -1,9 +1,9 @@
-+++
-draft = false
-date = "2016-12-18T13:01:37Z"
-title = "IoT Danger Zone - Part 2 - IP Cameras, baby monitors, and smart kettles"
-image = "dz-iot/title1.png"
-+++
+---
+title: "IoT Danger Zone - Part 2 - IP Cameras, baby monitors, and smart kettles"
+date: 2016-12-18T13:01:37Z
+draft: false
+cover: "/images/dz-iot/title1.png"
+---
 
 There are a growing number of devices in the home that connect to the internet, some of the most prolific in terms of remote attack are those designed to give the user access remotely, perhaps from their mobile when they are away from home. 
 

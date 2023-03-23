@@ -1,9 +1,9 @@
-+++
-draft = false
-date = "2016-12-16T23:01:08Z"
-title = "IoT Danger Zone - Part 1 - DDoS"
-image = "dz-iot/title1.png"
-+++
+---
+title: "IoT Danger Zone - Part 1 - DDoS"
+date: 2016-12-16T23:01:08Z
+draft: false
+cover: "/images/dz-iot/title1.png"
+---
 
 # Introduction to DDoS
 "The Internet of Things" is a popular phrase these days, and whether people know it or not, they probably have devices in their home that would he considered one of these "Things"

@@ -1,9 +1,9 @@
-+++
-date = "2013-04-12T00:00:00+01:00"
-draft = false
-title = "Bits & Niggles - Dialogs"
-image = "bn-dlg/title.jpg"
-+++
+---
+title: "Bits & Niggles - Dialogs"
+date: 2013-04-12T00:00:00+01:00
+draft: false
+cover: "/images/bn-dlg/title.jpg"
+---
 
 **UPDATE 2016:
 I really had to bring this post across to the new site because it amazes me that to this day there are popular apps that still haven't figured this out.

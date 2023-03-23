@@ -1,9 +1,9 @@
-+++
-date = "2014-07-08T00:00:00+01:00"
-draft = false
-title = "Open Logic Sniffer Case"
-image = "ols-case/title.jpg"
-+++
+---
+title: "Open Logic Sniffer Case"
+date: 2014-07-08T00:00:00+01:00
+draft: false
+cover: "/images/ols-case/title.jpg"
+---
 
 ![Open Logic Sniffer Case](/images/ols-case/olsc00.jpg)
 
@@ -21,7 +21,7 @@ It’s always great having bare P.C.B.s  because come on, they just look downrig
 
 I had a look around, and within 5 second of searching I managed to find a nice, elegant and slim case, just one issue, it was acrylic, and I’m not a huge fan of clear acrylic. The case in question is this one by ‘builttospec’ on Thingiverse, many thanks to them for making it available under the CC-SA license.
 
-Searching around for ways to get this thing made real, I came across RazorLab, where you can upload your design and get an instant quote for having your item made. Sadly, the file from Thingiverse was not compatible with the RazorLab system and so some changes had to be made. RazorLab has 3 sizes of material, and templates to build from in order to fit these sizes. This being my first ever attempt, and likely to fail, I went for the smallest (and cheapest ) size (P1) measuring 181mm x 181mm.
+Searching around for ways to get this thing made real, I came across [RazorLab](https://razorlab.online), where you can upload your design and get an instant quote for having your item made. Sadly, the file from Thingiverse was not compatible with the RazorLab system and so some changes had to be made. RazorLab has 3 sizes of material, and templates to build from in order to fit these sizes. This being my first ever attempt, and likely to fail, I went for the smallest (and cheapest) size (P1) measuring 181mm x 181mm.
 
 ![Remaining wood after case cutout](/images/ols-case/olsc02.jpg)
 
@@ -45,7 +45,7 @@ Fingers still crossed I opened it up and was pleasantly surprised that in fact t
 
 Hardware in hand I put my case together housing the logic sniffer and ended up with the beauty below. Overall I’m very pleased with my first effort at Laser cutting, not forgetting that the real work was done both by builttospec for designing the original case (linked above) and to RazorLab for doing a fantastic job of cutting the case quickly and at a great price. I look forward to having many more things cut to my gadgets!
 
-So, in the true spirit of open, I’d like to share the modified design file in RazorLab format, shared under the same license s the original for you to cut yourself. You can of course tweak it as you wish to be cut elsewhere if RazorLab is not an option for you. Enjoy.
+So, in the true spirit of open, I’d like to share the modified design file in RazorLab format, shared under the same license as the original for you to cut yourself. You can of course tweak it as you wish to be cut elsewhere if [RazorLab](https://razorlab.online) is not an option for you. Enjoy.
 
 ![Finished Case with Sniffer fitted](/images/ols-case/olsc04.jpg)
 
